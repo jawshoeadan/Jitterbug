@@ -1,5 +1,5 @@
 // Your Team ID
-DEVELOPMENT_TEAM = XYZ0123456
+DEVELOPMENT_TEAM = A72ZC8AJ5X
 
 // Prefix of unique bundle IDs registered to you in Apple Developer Portal.
 // You need to register:
@@ -8,4 +8,4 @@ DEVELOPMENT_TEAM = XYZ0123456
 //   - com.myuniquename.Jitterbug.JitterbugTunnel
 // Make sure to include the Network Extensions entitlement unless you are only
 // build JitterbugLite.
-PRODUCT_BUNDLE_PREFIX = com.myuniquename
+PRODUCT_BUNDLE_PREFIX = com.jawshoeadan

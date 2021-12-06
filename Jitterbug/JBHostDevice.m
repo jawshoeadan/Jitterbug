@@ -479,6 +479,41 @@ end:
     return ret;
 }
 
+
+- (BOOL)installNewAppWithError:(NSURL *)url error:(NSError **)error {
+    instproxy_client_t instproxy_client = NULL;
+    instproxy_error_t err = INSTPROXY_E_SUCCESS;
+    plist_t client_opts = NULL;
+    instproxy_status_cb_t instproxy_status = NULL;
+    
+    
+    
+    service_client_factory_start_service_with_lockdown(self.lockdown, self.device, INSTPROXY_SERVICE_NAME, (void**)&instproxy_client, TOOL_NAME, SERVICE_CONSTRUCTOR(instproxy_client_new), &err);
+//    if (err != INSTPROXY_E_SUCCESS) {
+//        [self createError:error withString:NSLocalizedString(@"Failed to start service on device. Make sure the device is connected to the network and unlocked and that the pairing is valid.", @"JBHostDevice") code:err];
+//        goto end;
+//    }
+    
+    client_opts = instproxy_client_options_new();
+    instproxy_client_options_add(client_opts, "ApplicationType", "User", NULL);
+    instproxy_client_options_set_return_attributes(client_opts, "CFBundleName", "CFBundleIdentifier", "CFBundleExecutable", "Path", "Container", "iTunesArtwork", NULL);
+    NSString *appurl = url.absoluteString;
+    const char *c = [appurl cStringUsingEncoding:NSUTF8StringEncoding];
+    instproxy_install(instproxy_client, c, client_opts, instproxy_status, NULL);
+
+    
+    
+end:
+    if (instproxy_client) {
+        instproxy_client_free(instproxy_client);
+    }
+    if (client_opts) {
+        instproxy_client_options_free(client_opts);
+    }
+    return true;
+}
+
+
 static ssize_t mim_upload_cb(void* buf, size_t size, void* userdata)
 {
     return fread(buf, 1, size, (FILE*)userdata);
@@ -489,6 +524,7 @@ static ssize_t mim_upload_cb(void* buf, size_t size, void* userdata)
     mobile_image_mounter_client_t mim = NULL;
     BOOL res = NO;
     const char *image_path = url.path.UTF8String;
+    NSLog(@"IMAGEURL: %s", image_path);
     size_t image_size = 0;
     const char *image_sig_path = signatureUrl.path.UTF8String;
     const char *imagetype = "Developer";

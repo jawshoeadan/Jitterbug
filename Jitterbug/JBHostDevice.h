@@ -52,7 +52,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (nullable NSArray<JBApp *> *)installedAppsWithError:(NSError **)error;
 - (BOOL)mountImageForUrl:(NSURL *)url signatureUrl:(NSURL *)signatureUrl error:(NSError **)error;
 - (BOOL)launchApplication:(JBApp *)application error:(NSError **)error;
-
+- (BOOL)installNewAppWithError:(NSURL *)url error:(NSError **)error;
 - (BOOL)resetPairingWithError:(NSError **)error;
 - (nullable NSData *)exportPairingWithError:(NSError **)error;
 

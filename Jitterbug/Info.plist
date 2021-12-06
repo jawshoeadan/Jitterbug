@@ -7,6 +7,24 @@
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string></string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>iOS Package Archive</string>
+			<key>LSHandlerRank</key>
+			<string>Default</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.osy86.ipa</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string></string>
+			</array>
 			<key>CFBundleTypeName</key>
 			<string>Mobile device pairing</string>
 			<key>LSHandlerRank</key>
@@ -80,6 +98,29 @@
 	<key>UTExportedTypeDeclarations</key>
 	<array>
 		<dict>
+			<key>UTTypeIconFile</key>
+			<string></string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>com.apple.property-list</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>iOS Package Archive</string>
+			<key>UTTypeIconFiles</key>
+			<array/>
+			<key>UTTypeIdentifier</key>
+			<string>com.osy86.ipa</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>ipa</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeIconFile</key>
+			<string></string>
 			<key>UTTypeConformsTo</key>
 			<array>
 				<string>com.apple.property-list</string>

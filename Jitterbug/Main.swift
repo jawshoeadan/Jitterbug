@@ -33,6 +33,7 @@ class Main: NSObject, ObservableObject {
     
     @Published var pairings: [URL] = []
     @Published var supportImages: [URL] = []
+    @Published var apps: [URL] = []
     
     private let hostFinder = HostFinder()
     
@@ -62,6 +63,10 @@ class Main: NSObject, ObservableObject {
         documentsURL.appendingPathComponent("SupportImages", isDirectory: true)
     }
     
+    private var appsURL: URL {
+        documentsURL.appendingPathComponent("Apps", isDirectory: true)
+    }
+    
     var tunnelDeviceIp: String {
         UserDefaults.standard.string(forKey: "TunnelDeviceIP") ?? "10.8.0.1"
     }
@@ -82,6 +87,7 @@ class Main: NSObject, ObservableObject {
         super.init()
         hostFinder.delegate = self
         refreshPairings()
+        refreshApps()
         refreshSupportImages()
         unarchiveSavedHosts()
         #if WITH_VPN
@@ -148,6 +154,13 @@ class Main: NSObject, ObservableObject {
             }
         }
     }
+    func importApp(_ ipa: URL) throws {
+        try importFile(ipa, toDirectory: appsURL) {
+            DispatchQueue.main.async {
+                self.refreshApps()
+            }
+        }
+    }
     
     func importSupportImage(_ support: URL) throws {
         try importFile(support, toDirectory: supportImagesURL) {
@@ -177,12 +190,19 @@ class Main: NSObject, ObservableObject {
         refresh(directory: supportImagesURL, list: &supportImages)
     }
     
+    func refreshApps() {
+        refresh(directory: appsURL, list: &apps)
+    }
+    
     func deletePairing(_ pairing: URL) throws {
         try self.fileManager.removeItem(at: pairing)
     }
     
     func deleteSupportImage(_ supportImage: URL) throws {
         try self.fileManager.removeItem(at: supportImage)
+    }
+    func deleteApp(_ app: URL) throws {
+        try self.fileManager.removeItem(at: app)
     }
     
     // MARK: - Save and restore

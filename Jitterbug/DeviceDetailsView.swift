@@ -33,6 +33,7 @@ struct DeviceDetailsView: View {
     @State private var selectedSupportImage: URL?
     @State private var selectedSupportImageSignature: URL?
     @State private var apps: [JBApp] = []
+    @State private var appsToInstall: [URL] = []
     @State private var appToLaunchAfterMount: JBApp?
     
     let host: JBHostDevice
@@ -86,6 +87,13 @@ struct DeviceDetailsView: View {
                             } label: {
                                 AppItemView(app: app, saved: false, hostIdentifier: host.identifier)
                             }.appContextMenu(host: host, app: app)
+                        }
+                    }
+                    Section(header: Text("Apps to install")){
+                        ForEach(appsToInstall){ app in
+                            Text(app.lastPathComponent).onTapGesture {
+                                installApplication(app)
+                            }
                         }
                     }
                 }
@@ -212,6 +220,7 @@ struct DeviceDetailsView: View {
         main.backgroundTask(message: NSLocalizedString("Querying installed apps...", comment: "DeviceDetailsView")) {
             try host.updateInfo()
             apps = try host.installedApps()
+            appsToInstall =  main.apps
             main.archiveSavedHosts()
             autoLaunchApp = try main.processAutoLaunch(withApps: apps)
             onSuccess()
@@ -256,6 +265,22 @@ struct DeviceDetailsView: View {
                 if imageNotMounted {
                     self.handleImageNotMounted(app: app)
                 }
+            }
+        }
+    }
+    
+    private func installApplication(_ app: URL) {
+     
+        main.backgroundTask(message: NSLocalizedString("Installing...", comment: "DeviceDetailsView")) {
+            do {
+                try host.installNewAppWithError(app)
+            } catch {
+              
+            }
+        } onComplete: {
+            // BUG: SwiftUI shows .disabled() even after it's already done
+            DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(5)) {
+                
             }
         }
     }

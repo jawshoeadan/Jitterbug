@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		038323C3275DE72F00E62E79 /* PairingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038323C2275DE72F00E62E79 /* PairingsView.swift */; };
 		4B811C342688D54100046341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B811C322688D54100046341 /* InfoPlist.strings */; };
 		4B811C372688D54100046341 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B811C352688D54100046341 /* Localizable.strings */; };
 		4B811C3A2688D54100046341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B811C382688D54100046341 /* InfoPlist.strings */; };
@@ -209,7 +210,7 @@
 		CEA65E7626C5E2CB00020562 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE98574C265C635000F9AAD4 /* ContentView.swift */; };
 		CEA65E7726C5E2CB00020562 /* ptrarray.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985787265C655900F9AAD4 /* ptrarray.c */; };
 		CEA65E7826C5E2CB00020562 /* sbservices.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985830265C6E1700F9AAD4 /* sbservices.c */; };
-		CEA65E7926C5E2CB00020562 /* PairingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B499265D7B6F007728F4 /* PairingsView.swift */; };
+		CEA65E7926C5E2CB00020562 /* AppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B499265D7B6F007728F4 /* AppsView.swift */; };
 		CEA65E7A26C5E2CB00020562 /* notification_proxy.c in Sources */ = {isa = PBXBuildFile; fileRef = CE98582A265C6E1700F9AAD4 /* notification_proxy.c */; };
 		CEA65E7B26C5E2CB00020562 /* mobilebackup.c in Sources */ = {isa = PBXBuildFile; fileRef = CE98583A265C6E1700F9AAD4 /* mobilebackup.c */; };
 		CEA65E7C26C5E2CB00020562 /* ManualAddHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93EC22266ABAA8002BB16C /* ManualAddHostView.swift */; };
@@ -295,7 +296,7 @@
 		CEE8B484265D6A51007728F4 /* JBApp.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B483265D6A51007728F4 /* JBApp.m */; };
 		CEE8B48C265D797E007728F4 /* DeviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B48B265D797E007728F4 /* DeviceListView.swift */; };
 		CEE8B494265D7AE2007728F4 /* LauncherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B493265D7AE2007728F4 /* LauncherView.swift */; };
-		CEE8B49A265D7B6F007728F4 /* PairingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B499265D7B6F007728F4 /* PairingsView.swift */; };
+		CEE8B49A265D7B6F007728F4 /* AppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B499265D7B6F007728F4 /* AppsView.swift */; };
 		CEE8B4A0265D7BCA007728F4 /* SupportFilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B49F265D7BCA007728F4 /* SupportFilesView.swift */; };
 		CEE8B4A6265D7DF4007728F4 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B4A5265D7DF3007728F4 /* Main.swift */; };
 		CEE8B4AA265D8870007728F4 /* BusyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B4A9265D8870007728F4 /* BusyView.swift */; };
@@ -340,6 +341,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		038323C2275DE72F00E62E79 /* PairingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairingsView.swift; sourceTree = "<group>"; };
 		4B30CD8426BC250400ACBA59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4B30CD8526BC252100ACBA59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4B811C332688D54100046341 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -535,7 +537,7 @@
 		CEE8B483265D6A51007728F4 /* JBApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBApp.m; sourceTree = "<group>"; };
 		CEE8B48B265D797E007728F4 /* DeviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListView.swift; sourceTree = "<group>"; };
 		CEE8B493265D7AE2007728F4 /* LauncherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherView.swift; sourceTree = "<group>"; };
-		CEE8B499265D7B6F007728F4 /* PairingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingsView.swift; sourceTree = "<group>"; };
+		CEE8B499265D7B6F007728F4 /* AppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsView.swift; sourceTree = "<group>"; };
 		CEE8B49F265D7BCA007728F4 /* SupportFilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportFilesView.swift; sourceTree = "<group>"; };
 		CEE8B4A5265D7DF3007728F4 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		CEE8B4A9265D8870007728F4 /* BusyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusyView.swift; sourceTree = "<group>"; };
@@ -660,7 +662,8 @@
 				CEE8B4CF265DEAAF007728F4 /* FileSelectionView.swift */,
 				CEE8B493265D7AE2007728F4 /* LauncherView.swift */,
 				CE93EC22266ABAA8002BB16C /* ManualAddHostView.swift */,
-				CEE8B499265D7B6F007728F4 /* PairingsView.swift */,
+				CEE8B499265D7B6F007728F4 /* AppsView.swift */,
+				038323C2275DE72F00E62E79 /* PairingsView.swift */,
 				CEE8B49F265D7BCA007728F4 /* SupportFilesView.swift */,
 				CE98574E265C635300F9AAD4 /* Assets.xcassets */,
 				CE985753265C635300F9AAD4 /* Info.plist */,
@@ -1198,7 +1201,7 @@
 				CE98574D265C635000F9AAD4 /* ContentView.swift in Sources */,
 				CE9857A6265C655A00F9AAD4 /* ptrarray.c in Sources */,
 				CE985854265C6E1800F9AAD4 /* sbservices.c in Sources */,
-				CEE8B49A265D7B6F007728F4 /* PairingsView.swift in Sources */,
+				CEE8B49A265D7B6F007728F4 /* AppsView.swift in Sources */,
 				CE98584F265C6E1800F9AAD4 /* notification_proxy.c in Sources */,
 				CE98585A265C6E1800F9AAD4 /* mobilebackup.c in Sources */,
 				CE93EC23266ABAA8002BB16C /* ManualAddHostView.swift in Sources */,
@@ -1246,6 +1249,7 @@
 				CEE8B4A6265D7DF4007728F4 /* Main.swift in Sources */,
 				CE985859265C6E1800F9AAD4 /* mobilesync.c in Sources */,
 				CE9857A0265C655A00F9AAD4 /* bplist.c in Sources */,
+				038323C3275DE72F00E62E79 /* PairingsView.swift in Sources */,
 				CE985797265C655A00F9AAD4 /* time64.c in Sources */,
 				CE9857A4265C655A00F9AAD4 /* Integer.cpp in Sources */,
 				CEE8B48C265D797E007728F4 /* DeviceListView.swift in Sources */,
@@ -1420,7 +1424,7 @@
 				CEA65E7626C5E2CB00020562 /* ContentView.swift in Sources */,
 				CEA65E7726C5E2CB00020562 /* ptrarray.c in Sources */,
 				CEA65E7826C5E2CB00020562 /* sbservices.c in Sources */,
-				CEA65E7926C5E2CB00020562 /* PairingsView.swift in Sources */,
+				CEA65E7926C5E2CB00020562 /* AppsView.swift in Sources */,
 				CEA65E7A26C5E2CB00020562 /* notification_proxy.c in Sources */,
 				CEA65E7B26C5E2CB00020562 /* mobilebackup.c in Sources */,
 				CEA65E7C26C5E2CB00020562 /* ManualAddHostView.swift in Sources */,
@@ -1761,7 +1765,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_PREFIX:default=com.osy86).Jitterbug";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jawshoeadan.Jitterbug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "WITH_VPN $(inherited)";
@@ -1789,7 +1793,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_PREFIX:default=com.osy86).Jitterbug";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jawshoeadan.Jitterbug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "WITH_VPN $(inherited)";

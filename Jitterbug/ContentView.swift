@@ -34,6 +34,10 @@ struct ContentView: View {
                     .tabItem {
                         Label("Support Files", systemImage: "doc.zipper")
                     }
+                AppsView()
+                    .tabItem{
+                        Label("Apps", systemImage: "arrow.down.app.fill")
+                    }
             }
             if main.busy {
                 BusyView(message: main.busyMessage)
