@@ -20,7 +20,7 @@ fileprivate enum FileType: Int, Identifiable {
     var id: Int {
         self.rawValue
     }
-    
+
     case pairing
     case supportImage
     case supportImageSignature
@@ -33,11 +33,10 @@ struct DeviceDetailsView: View {
     @State private var selectedSupportImage: URL?
     @State private var selectedSupportImageSignature: URL?
     @State private var apps: [JBApp] = []
-    @State private var appsToInstall: [URL] = []
     @State private var appToLaunchAfterMount: JBApp?
-    
+
     let host: JBHostDevice
-    
+
     private var favoriteApps: [JBApp] {
         let favorites = main.getFavorites(forHostIdentifier: host.identifier)
         return apps.filter { app in
@@ -46,7 +45,7 @@ struct DeviceDetailsView: View {
             }
         }.sorted { $0.bundleName < $1.bundleName }
     }
-    
+
     private var notFavoriteApps: [JBApp] {
         let favorites = main.getFavorites(forHostIdentifier: host.identifier)
         return apps.filter { app in
@@ -55,9 +54,9 @@ struct DeviceDetailsView: View {
             }
         }.sorted { $0.bundleName < $1.bundleName }
     }
-    
+
     var body: some View {
-        Group {
+        VStack {
             if host == main.localHost && !main.hasLocalDeviceSupport {
                 Text("Local device not supported.")
                     .font(.headline)
@@ -89,18 +88,14 @@ struct DeviceDetailsView: View {
                             }.appContextMenu(host: host, app: app)
                         }
                     }
-                    Section(header: Text("Apps to install")){
-                        ForEach(appsToInstall){ app in
-                            Text(app.lastPathComponent).onTapGesture {
-                                installApplication(app)
-                            }
-                        }
-                    }
+                    Button{
+                        uninstallApp()
+                    } label: { Text("Uninstall tiktok")}
                 }
             }
         }.navigationTitle(host.name)
-        .listStyle(PlainListStyle())
-        .sheet(item: $fileSelectType) { type in
+            .listStyle(PlainListStyle())
+            .sheet(item: $fileSelectType) { type in
             switch type {
             case .pairing:
                 FileSelectionView(urls: main.pairings, selectedUrl: $selectedPairing, title: Text("Select Pairing"))
@@ -124,9 +119,9 @@ struct DeviceDetailsView: View {
             }
         }.onAppear {
             #if WITH_VPN
-            let supportVPN = main.localHost == host && main.hasLocalDeviceSupport && !main.isTunnelStarted
+                let supportVPN = main.localHost == host && main.hasLocalDeviceSupport && !main.isTunnelStarted
             #else
-            let supportVPN = false
+                let supportVPN = false
             #endif
             if supportVPN {
                 main.startTunnel()
@@ -153,7 +148,7 @@ struct DeviceDetailsView: View {
                     fileSelectType = .supportImageSignature
                 }
             }
-        }.onChange(of :selectedSupportImageSignature) { url in
+        }.onChange(of: selectedSupportImageSignature) { url in
             guard let supportImage = selectedSupportImage else {
                 return
             }
@@ -180,7 +175,7 @@ struct DeviceDetailsView: View {
             launchApplication(autoLaunchApp)
         }
     }
-    
+
     private func loadDefaults() {
         selectedPairing = main.loadPairing(forHostIdentifier: host.identifier)
         selectedSupportImage = main.loadDiskImage(forHostIdentifier: host.identifier)
@@ -189,7 +184,7 @@ struct DeviceDetailsView: View {
             fileSelectType = .pairing
         }
     }
-    
+
     private func resetConnection(onComplete: @escaping () -> Void) {
         main.backgroundTask(message: NSLocalizedString("Disconnecting...", comment: "DeviceDetailsView")) {
             host.stopLockdown()
@@ -197,7 +192,7 @@ struct DeviceDetailsView: View {
             onComplete()
         }
     }
-    
+
     private func loadPairing(for selected: URL) {
         var success = false
         main.backgroundTask(message: NSLocalizedString("Loading pairing data...", comment: "DeviceDetailsView")) {
@@ -214,13 +209,12 @@ struct DeviceDetailsView: View {
             }
         }
     }
-    
+
     private func refreshAppsList(onSuccess: @escaping () -> Void) {
         var autoLaunchApp: JBApp?
         main.backgroundTask(message: NSLocalizedString("Querying installed apps...", comment: "DeviceDetailsView")) {
             try host.updateInfo()
             apps = try host.installedApps()
-            appsToInstall =  main.apps
             main.archiveSavedHosts()
             autoLaunchApp = try main.processAutoLaunch(withApps: apps)
             onSuccess()
@@ -230,7 +224,16 @@ struct DeviceDetailsView: View {
             }
         }
     }
-    
+
+    private func uninstallApp() {
+        main.backgroundTask(message: NSLocalizedString("Uninstalled apps...", comment: "DeviceDetailsView")) {
+            host.uninstallApp()
+
+        } onComplete: {
+            print("App uninstalled?!")
+        }
+    }
+
     private func mountImage(_ supportImage: URL, signature supportImageSignature: URL) {
         main.backgroundTask(message: NSLocalizedString("Mounting disk image...", comment: "DeviceDetailsView")) {
             main.saveDiskImage(nil, signature: nil, forHostIdentifier: host.identifier)
@@ -245,7 +248,7 @@ struct DeviceDetailsView: View {
             }
         }
     }
-    
+
     private func launchApplication(_ app: JBApp) {
         var imageNotMounted = false
         main.backgroundTask(message: NSLocalizedString("Launching...", comment: "DeviceDetailsView")) {
@@ -268,23 +271,10 @@ struct DeviceDetailsView: View {
             }
         }
     }
-    
-    private func installApplication(_ app: URL) {
-     
-        main.backgroundTask(message: NSLocalizedString("Installing...", comment: "DeviceDetailsView")) {
-            do {
-                try host.installNewAppWithError(app)
-            } catch {
-              
-            }
-        } onComplete: {
-            // BUG: SwiftUI shows .disabled() even after it's already done
-            DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(5)) {
-                
-            }
-        }
-    }
-    
+
+
+
+
     private func handleImageNotMounted(app: JBApp) {
         if main.supportImages.isEmpty {
             main.alertMessage = NSLocalizedString("Developer image is not mounted. You need DeveloperDiskImage.dmg and DeveloperDiskImage.dmg.signature imported in Support Files.", comment: "DeviceDetailsView")
@@ -299,7 +289,7 @@ struct AppContextMenuViewModifier: ViewModifier {
     @EnvironmentObject private var main: Main
     let host: JBHostDevice
     let app: JBApp
-    
+
     func body(content: Content) -> some View {
         content.contextMenu {
             Button {

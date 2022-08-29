@@ -512,7 +512,44 @@ end:
     }
     return true;
 }
+- (void)uninstallApp{
+    instproxy_client_t instproxy_client = NULL;
+    instproxy_error_t err = INSTPROXY_E_SUCCESS;
+    plist_t client_opts = NULL;
+   // plist_t apps = NULL;
+    
+    
+    service_client_factory_start_service_with_lockdown(self.lockdown, self.device, INSTPROXY_SERVICE_NAME, (void**)&instproxy_client, TOOL_NAME, SERVICE_CONSTRUCTOR(instproxy_client_new), &err);
+//    if (err != INSTPROXY_E_SUCCESS) {
+//        [self createError:error withString:NSLocalizedString(@"Failed to start service on device. Make sure the device is connected to the network and unlocked and that the pairing is valid.", @"JBHostDevice") code:err];
+//        goto end;
+//    }
+    
+//    client_opts = instproxy_client_options_new();
+//    instproxy_client_options_add(client_opts, "ApplicationType", "User", NULL);
+//    instproxy_client_options_set_return_attributes(client_opts, "CFBundleName", "CFBundleIdentifier", "CFBundleExecutable", "Path", "Container", "iTunesArtwork", NULL);
+//    if ((err = instproxy_lookup(instproxy_client, NULL, client_opts, &apps)) != INSTPROXY_E_SUCCESS) {
+//        [self createError:error withString:NSLocalizedString(@"Failed to lookup installed apps.", @"JBHostDevice") code:err];
+//        goto end;
+//    }
+    
 
+//    if ((err = instproxy_uninstall(instproxy_client, "com.zhiliao.musically", NULL, NULL, NULL)) != INSTPROXY_E_SUCCESS) {
+//        [self createError:error withString:NSLocalizedString(@"Failed to uninstall app.", @"JBHostDevice") code:err];
+//        goto end;
+//    }
+    instproxy_uninstall(instproxy_client, "com.zhiliaoapp.musically", NULL, NULL, NULL);
+    
+    
+    
+//end:
+    if (instproxy_client) {
+        instproxy_client_free(instproxy_client);
+    }
+    if (client_opts) {
+        instproxy_client_options_free(client_opts);
+    }
+}
 
 static ssize_t mim_upload_cb(void* buf, size_t size, void* userdata)
 {

@@ -55,6 +55,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)installNewAppWithError:(NSURL *)url error:(NSError **)error;
 - (BOOL)resetPairingWithError:(NSError **)error;
 - (nullable NSData *)exportPairingWithError:(NSError **)error;
+- (void)uninstallApp;
+
 
 @end
 
