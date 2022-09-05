@@ -98,14 +98,14 @@
 	<key>UTExportedTypeDeclarations</key>
 	<array>
 		<dict>
-			<key>UTTypeIconFile</key>
-			<string></string>
 			<key>UTTypeConformsTo</key>
 			<array>
 				<string>com.apple.property-list</string>
 			</array>
 			<key>UTTypeDescription</key>
 			<string>iOS Package Archive</string>
+			<key>UTTypeIconFile</key>
+			<string></string>
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
@@ -119,14 +119,14 @@
 			</dict>
 		</dict>
 		<dict>
-			<key>UTTypeIconFile</key>
-			<string></string>
 			<key>UTTypeConformsTo</key>
 			<array>
 				<string>com.apple.property-list</string>
 			</array>
 			<key>UTTypeDescription</key>
 			<string>Mobile device pairing</string>
+			<key>UTTypeIconFile</key>
+			<string></string>
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>

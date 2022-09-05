@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		038323C3275DE72F00E62E79 /* PairingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038323C2275DE72F00E62E79 /* PairingsView.swift */; };
+		03E41E3428C5A84500FD910A /* SwiftZip in Frameworks */ = {isa = PBXBuildFile; productRef = 03E41E3328C5A84500FD910A /* SwiftZip */; };
+		03E41E3628C5A84500FD910A /* SwiftZipUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 03E41E3528C5A84500FD910A /* SwiftZipUtils */; };
+		03E41E3828C5A84500FD910A /* zip in Frameworks */ = {isa = PBXBuildFile; productRef = 03E41E3728C5A84500FD910A /* zip */; };
+		03E41E4228C5AB0D00FD910A /* ideviceinstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E41E4128C5AB0D00FD910A /* ideviceinstaller.m */; };
+		03E41E4328C5AB0D00FD910A /* ideviceinstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E41E4128C5AB0D00FD910A /* ideviceinstaller.m */; };
+		03E41E4428C5AB0D00FD910A /* ideviceinstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E41E4128C5AB0D00FD910A /* ideviceinstaller.m */; };
 		4B811C342688D54100046341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B811C322688D54100046341 /* InfoPlist.strings */; };
 		4B811C372688D54100046341 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B811C352688D54100046341 /* Localizable.strings */; };
 		4B811C3A2688D54100046341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B811C382688D54100046341 /* InfoPlist.strings */; };
@@ -342,6 +348,7 @@
 
 /* Begin PBXFileReference section */
 		038323C2275DE72F00E62E79 /* PairingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairingsView.swift; sourceTree = "<group>"; };
+		03E41E4128C5AB0D00FD910A /* ideviceinstaller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ideviceinstaller.m; sourceTree = "<group>"; };
 		4B30CD8426BC250400ACBA59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4B30CD8526BC252100ACBA59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4B811C332688D54100046341 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -561,7 +568,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E41E3428C5A84500FD910A /* SwiftZip in Frameworks */,
+				03E41E3828C5A84500FD910A /* zip in Frameworks */,
 				CE985862265C703A00F9AAD4 /* OpenSSL in Frameworks */,
+				03E41E3628C5A84500FD910A /* SwiftZipUtils in Frameworks */,
 				CE4DEC2E26717E00003BDC3F /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -644,6 +654,7 @@
 				CEE8B483265D6A51007728F4 /* JBApp.m */,
 				CEE8B473265D59C0007728F4 /* JBHostDevice.h */,
 				CEE8B474265D59C0007728F4 /* JBHostDevice.m */,
+				03E41E4128C5AB0D00FD910A /* ideviceinstaller.m */,
 				CEE8B47A265D5C4F007728F4 /* JBHostDevice.swift */,
 				CEA029D02667DC8A00CF57E1 /* JBHostFinder.h */,
 				CEA029D12667DC8A00CF57E1 /* JBHostFinder.m */,
@@ -1023,6 +1034,9 @@
 			name = Jitterbug;
 			packageProductDependencies = (
 				CE985861265C703A00F9AAD4 /* OpenSSL */,
+				03E41E3328C5A84500FD910A /* SwiftZip */,
+				03E41E3528C5A84500FD910A /* SwiftZipUtils */,
+				03E41E3728C5A84500FD910A /* zip */,
 			);
 			productName = Jitterbug;
 			productReference = CE985747265C635000F9AAD4 /* Jitterbug.app */;
@@ -1125,6 +1139,7 @@
 			mainGroup = CE98573E265C635000F9AAD4;
 			packageReferences = (
 				CE985860265C703A00F9AAD4 /* XCRemoteSwiftPackageReference "OpenSSL" */,
+				03E41E3228C5A84500FD910A /* XCRemoteSwiftPackageReference "SwiftZip" */,
 			);
 			productRefGroup = CE985748265C635000F9AAD4 /* Products */;
 			projectDirPath = "";
@@ -1222,6 +1237,7 @@
 				CE985857265C6E1800F9AAD4 /* property_list_service.c in Sources */,
 				CE98584E265C6E1800F9AAD4 /* syslog_relay.c in Sources */,
 				CEE8B45B265CBF49007728F4 /* thread.c in Sources */,
+				03E41E4228C5AB0D00FD910A /* ideviceinstaller.m in Sources */,
 				CEE8B461265CBFC2007728F4 /* libusbmuxd-stub.c in Sources */,
 				CE985853265C6E1800F9AAD4 /* mobilebackup2.c in Sources */,
 				CE985846265C6E1800F9AAD4 /* debugserver.c in Sources */,
@@ -1364,6 +1380,7 @@
 				CEA02A2626685A2B00CF57E1 /* libusbmuxd.c in Sources */,
 				CE93EC24266ABAA8002BB16C /* ManualAddHostView.swift in Sources */,
 				CEA02A0726685A2B00CF57E1 /* mobilebackup.c in Sources */,
+				03E41E4428C5AB0D00FD910A /* ideviceinstaller.m in Sources */,
 				CEA02A0526685A2B00CF57E1 /* Key.cpp in Sources */,
 				CEA029EB266859D200CF57E1 /* Extensions.swift in Sources */,
 				CEA02A2726685A2B00CF57E1 /* Node.cpp in Sources */,
@@ -1479,6 +1496,7 @@
 				CEA65EAD26C5E2CB00020562 /* Structure.cpp in Sources */,
 				CEA65EAE26C5E2CB00020562 /* lockdown.c in Sources */,
 				CEA65EAF26C5E2CB00020562 /* CacheStorage.c in Sources */,
+				03E41E4328C5AB0D00FD910A /* ideviceinstaller.m in Sources */,
 				CEA65EB026C5E2CB00020562 /* socket.c in Sources */,
 				CEA65EB126C5E2CB00020562 /* companion_proxy.c in Sources */,
 				CEA65EB226C5E2CB00020562 /* FileSelectionView.swift in Sources */,
@@ -1759,6 +1777,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+				);
 				INFOPLIST_FILE = Jitterbug/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1787,6 +1809,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+				);
 				INFOPLIST_FILE = Jitterbug/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1980,6 +2006,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		03E41E3228C5A84500FD910A /* XCRemoteSwiftPackageReference "SwiftZip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftZip/SwiftZip";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
 		CE985860265C703A00F9AAD4 /* XCRemoteSwiftPackageReference "OpenSSL" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/krzyzanowskim/OpenSSL.git";
@@ -1999,6 +2033,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		03E41E3328C5A84500FD910A /* SwiftZip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03E41E3228C5A84500FD910A /* XCRemoteSwiftPackageReference "SwiftZip" */;
+			productName = SwiftZip;
+		};
+		03E41E3528C5A84500FD910A /* SwiftZipUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03E41E3228C5A84500FD910A /* XCRemoteSwiftPackageReference "SwiftZip" */;
+			productName = SwiftZipUtils;
+		};
+		03E41E3728C5A84500FD910A /* zip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03E41E3228C5A84500FD910A /* XCRemoteSwiftPackageReference "SwiftZip" */;
+			productName = zip;
+		};
 		CE985861265C703A00F9AAD4 /* OpenSSL */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CE985860265C703A00F9AAD4 /* XCRemoteSwiftPackageReference "OpenSSL" */;

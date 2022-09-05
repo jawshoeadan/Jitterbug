@@ -1,0 +1,692 @@
+[
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_add.c.o -c /Users/Josh/Downloads/libzip/lib/zip_add.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_add.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_add_dir.c.o -c /Users/Josh/Downloads/libzip/lib/zip_add_dir.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_add_dir.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_add_entry.c.o -c /Users/Josh/Downloads/libzip/lib/zip_add_entry.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_add_entry.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_algorithm_deflate.c.o -c /Users/Josh/Downloads/libzip/lib/zip_algorithm_deflate.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_algorithm_deflate.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_buffer.c.o -c /Users/Josh/Downloads/libzip/lib/zip_buffer.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_buffer.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_close.c.o -c /Users/Josh/Downloads/libzip/lib/zip_close.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_close.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_delete.c.o -c /Users/Josh/Downloads/libzip/lib/zip_delete.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_delete.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_dir_add.c.o -c /Users/Josh/Downloads/libzip/lib/zip_dir_add.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_dir_add.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_dirent.c.o -c /Users/Josh/Downloads/libzip/lib/zip_dirent.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_dirent.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_discard.c.o -c /Users/Josh/Downloads/libzip/lib/zip_discard.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_discard.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_entry.c.o -c /Users/Josh/Downloads/libzip/lib/zip_entry.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_entry.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_error.c.o -c /Users/Josh/Downloads/libzip/lib/zip_error.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_error.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_error_clear.c.o -c /Users/Josh/Downloads/libzip/lib/zip_error_clear.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_error_clear.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_error_get.c.o -c /Users/Josh/Downloads/libzip/lib/zip_error_get.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_error_get.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_error_get_sys_type.c.o -c /Users/Josh/Downloads/libzip/lib/zip_error_get_sys_type.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_error_get_sys_type.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_error_strerror.c.o -c /Users/Josh/Downloads/libzip/lib/zip_error_strerror.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_error_strerror.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_error_to_str.c.o -c /Users/Josh/Downloads/libzip/lib/zip_error_to_str.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_error_to_str.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_extra_field.c.o -c /Users/Josh/Downloads/libzip/lib/zip_extra_field.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_extra_field.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_extra_field_api.c.o -c /Users/Josh/Downloads/libzip/lib/zip_extra_field_api.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_extra_field_api.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_fclose.c.o -c /Users/Josh/Downloads/libzip/lib/zip_fclose.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_fclose.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_fdopen.c.o -c /Users/Josh/Downloads/libzip/lib/zip_fdopen.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_fdopen.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_file_add.c.o -c /Users/Josh/Downloads/libzip/lib/zip_file_add.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_file_add.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_file_error_clear.c.o -c /Users/Josh/Downloads/libzip/lib/zip_file_error_clear.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_file_error_clear.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_file_error_get.c.o -c /Users/Josh/Downloads/libzip/lib/zip_file_error_get.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_file_error_get.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_file_get_comment.c.o -c /Users/Josh/Downloads/libzip/lib/zip_file_get_comment.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_file_get_comment.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_file_get_external_attributes.c.o -c /Users/Josh/Downloads/libzip/lib/zip_file_get_external_attributes.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_file_get_external_attributes.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_file_get_offset.c.o -c /Users/Josh/Downloads/libzip/lib/zip_file_get_offset.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_file_get_offset.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_file_rename.c.o -c /Users/Josh/Downloads/libzip/lib/zip_file_rename.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_file_rename.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_file_replace.c.o -c /Users/Josh/Downloads/libzip/lib/zip_file_replace.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_file_replace.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_file_set_comment.c.o -c /Users/Josh/Downloads/libzip/lib/zip_file_set_comment.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_file_set_comment.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_file_set_encryption.c.o -c /Users/Josh/Downloads/libzip/lib/zip_file_set_encryption.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_file_set_encryption.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_file_set_external_attributes.c.o -c /Users/Josh/Downloads/libzip/lib/zip_file_set_external_attributes.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_file_set_external_attributes.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_file_set_mtime.c.o -c /Users/Josh/Downloads/libzip/lib/zip_file_set_mtime.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_file_set_mtime.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_file_strerror.c.o -c /Users/Josh/Downloads/libzip/lib/zip_file_strerror.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_file_strerror.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_fopen.c.o -c /Users/Josh/Downloads/libzip/lib/zip_fopen.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_fopen.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_fopen_encrypted.c.o -c /Users/Josh/Downloads/libzip/lib/zip_fopen_encrypted.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_fopen_encrypted.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_fopen_index.c.o -c /Users/Josh/Downloads/libzip/lib/zip_fopen_index.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_fopen_index.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_fopen_index_encrypted.c.o -c /Users/Josh/Downloads/libzip/lib/zip_fopen_index_encrypted.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_fopen_index_encrypted.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_fread.c.o -c /Users/Josh/Downloads/libzip/lib/zip_fread.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_fread.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_fseek.c.o -c /Users/Josh/Downloads/libzip/lib/zip_fseek.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_fseek.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_ftell.c.o -c /Users/Josh/Downloads/libzip/lib/zip_ftell.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_ftell.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_get_archive_comment.c.o -c /Users/Josh/Downloads/libzip/lib/zip_get_archive_comment.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_get_archive_comment.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_get_archive_flag.c.o -c /Users/Josh/Downloads/libzip/lib/zip_get_archive_flag.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_get_archive_flag.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_get_encryption_implementation.c.o -c /Users/Josh/Downloads/libzip/lib/zip_get_encryption_implementation.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_get_encryption_implementation.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_get_file_comment.c.o -c /Users/Josh/Downloads/libzip/lib/zip_get_file_comment.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_get_file_comment.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_get_name.c.o -c /Users/Josh/Downloads/libzip/lib/zip_get_name.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_get_name.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_get_num_entries.c.o -c /Users/Josh/Downloads/libzip/lib/zip_get_num_entries.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_get_num_entries.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_get_num_files.c.o -c /Users/Josh/Downloads/libzip/lib/zip_get_num_files.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_get_num_files.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_hash.c.o -c /Users/Josh/Downloads/libzip/lib/zip_hash.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_hash.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_io_util.c.o -c /Users/Josh/Downloads/libzip/lib/zip_io_util.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_io_util.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_libzip_version.c.o -c /Users/Josh/Downloads/libzip/lib/zip_libzip_version.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_libzip_version.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_memdup.c.o -c /Users/Josh/Downloads/libzip/lib/zip_memdup.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_memdup.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_name_locate.c.o -c /Users/Josh/Downloads/libzip/lib/zip_name_locate.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_name_locate.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_new.c.o -c /Users/Josh/Downloads/libzip/lib/zip_new.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_new.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_open.c.o -c /Users/Josh/Downloads/libzip/lib/zip_open.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_open.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_pkware.c.o -c /Users/Josh/Downloads/libzip/lib/zip_pkware.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_pkware.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_progress.c.o -c /Users/Josh/Downloads/libzip/lib/zip_progress.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_progress.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_rename.c.o -c /Users/Josh/Downloads/libzip/lib/zip_rename.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_rename.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_replace.c.o -c /Users/Josh/Downloads/libzip/lib/zip_replace.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_replace.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_set_archive_comment.c.o -c /Users/Josh/Downloads/libzip/lib/zip_set_archive_comment.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_set_archive_comment.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_set_archive_flag.c.o -c /Users/Josh/Downloads/libzip/lib/zip_set_archive_flag.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_set_archive_flag.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_set_default_password.c.o -c /Users/Josh/Downloads/libzip/lib/zip_set_default_password.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_set_default_password.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_set_file_comment.c.o -c /Users/Josh/Downloads/libzip/lib/zip_set_file_comment.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_set_file_comment.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_set_file_compression.c.o -c /Users/Josh/Downloads/libzip/lib/zip_set_file_compression.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_set_file_compression.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_set_name.c.o -c /Users/Josh/Downloads/libzip/lib/zip_set_name.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_set_name.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_accept_empty.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_accept_empty.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_accept_empty.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_begin_write.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_begin_write.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_begin_write.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_begin_write_cloning.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_begin_write_cloning.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_begin_write_cloning.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_buffer.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_buffer.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_buffer.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_call.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_call.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_call.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_close.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_close.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_close.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_commit_write.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_commit_write.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_commit_write.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_compress.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_compress.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_compress.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_crc.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_crc.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_crc.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_error.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_error.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_error.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_file_common.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_file_common.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_file_common.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_file_stdio.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_file_stdio.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_file_stdio.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_free.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_free.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_free.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_function.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_function.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_function.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_get_file_attributes.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_get_file_attributes.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_get_file_attributes.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_is_deleted.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_is_deleted.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_is_deleted.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_layered.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_layered.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_layered.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_open.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_open.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_open.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_pkware_decode.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_pkware_decode.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_pkware_decode.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_pkware_encode.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_pkware_encode.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_pkware_encode.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_read.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_read.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_read.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_remove.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_remove.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_remove.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_rollback_write.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_rollback_write.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_rollback_write.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_seek.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_seek.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_seek.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_seek_write.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_seek_write.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_seek_write.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_stat.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_stat.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_stat.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_supports.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_supports.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_supports.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_tell.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_tell.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_tell.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_tell_write.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_tell_write.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_tell_write.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_window.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_window.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_window.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_write.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_write.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_write.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_zip.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_zip.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_zip.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_zip_new.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_zip_new.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_zip_new.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_stat.c.o -c /Users/Josh/Downloads/libzip/lib/zip_stat.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_stat.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_stat_index.c.o -c /Users/Josh/Downloads/libzip/lib/zip_stat_index.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_stat_index.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_stat_init.c.o -c /Users/Josh/Downloads/libzip/lib/zip_stat_init.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_stat_init.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_strerror.c.o -c /Users/Josh/Downloads/libzip/lib/zip_strerror.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_strerror.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_string.c.o -c /Users/Josh/Downloads/libzip/lib/zip_string.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_string.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_unchange.c.o -c /Users/Josh/Downloads/libzip/lib/zip_unchange.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_unchange.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_unchange_all.c.o -c /Users/Josh/Downloads/libzip/lib/zip_unchange_all.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_unchange_all.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_unchange_archive.c.o -c /Users/Josh/Downloads/libzip/lib/zip_unchange_archive.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_unchange_archive.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_unchange_data.c.o -c /Users/Josh/Downloads/libzip/lib/zip_unchange_data.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_unchange_data.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_utf-8.c.o -c /Users/Josh/Downloads/libzip/lib/zip_utf-8.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_utf-8.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_err_str.c.o -c /Users/Josh/Downloads/libzip/build/lib/zip_err_str.c",
+  "file": "/Users/Josh/Downloads/libzip/build/lib/zip_err_str.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_file_stdio_named.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_file_stdio_named.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_file_stdio_named.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_random_unix.c.o -c /Users/Josh/Downloads/libzip/lib/zip_random_unix.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_random_unix.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_algorithm_bzip2.c.o -c /Users/Josh/Downloads/libzip/lib/zip_algorithm_bzip2.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_algorithm_bzip2.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_algorithm_xz.c.o -c /Users/Josh/Downloads/libzip/lib/zip_algorithm_xz.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_algorithm_xz.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_algorithm_zstd.c.o -c /Users/Josh/Downloads/libzip/lib/zip_algorithm_zstd.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_algorithm_zstd.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_crypto_commoncrypto.c.o -c /Users/Josh/Downloads/libzip/lib/zip_crypto_commoncrypto.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_crypto_commoncrypto.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_winzip_aes.c.o -c /Users/Josh/Downloads/libzip/lib/zip_winzip_aes.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_winzip_aes.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_winzip_aes_decode.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_winzip_aes_decode.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_winzip_aes_decode.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/lib",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dzip_EXPORTS -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -isystem /opt/homebrew/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -fvisibility=hidden -o CMakeFiles/zip.dir/zip_source_winzip_aes_encode.c.o -c /Users/Josh/Downloads/libzip/lib/zip_source_winzip_aes_encode.c",
+  "file": "/Users/Josh/Downloads/libzip/lib/zip_source_winzip_aes_encode.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/src/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/zipcmp.dir/zipcmp.c.o -c /Users/Josh/Downloads/libzip/src/zipcmp.c",
+  "file": "/Users/Josh/Downloads/libzip/src/zipcmp.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/src/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/zipcmp.dir/diff_output.c.o -c /Users/Josh/Downloads/libzip/src/diff_output.c",
+  "file": "/Users/Josh/Downloads/libzip/src/diff_output.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/src/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/zipmerge.dir/zipmerge.c.o -c /Users/Josh/Downloads/libzip/src/zipmerge.c",
+  "file": "/Users/Josh/Downloads/libzip/src/zipmerge.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/src/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/ziptool.dir/ziptool.c.o -c /Users/Josh/Downloads/libzip/src/ziptool.c",
+  "file": "/Users/Josh/Downloads/libzip/src/ziptool.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/regress",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/regress/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/add_from_filep.dir/add_from_filep.c.o -c /Users/Josh/Downloads/libzip/regress/add_from_filep.c",
+  "file": "/Users/Josh/Downloads/libzip/regress/add_from_filep.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/regress",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/regress/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/can_clone_file.dir/can_clone_file.c.o -c /Users/Josh/Downloads/libzip/regress/can_clone_file.c",
+  "file": "/Users/Josh/Downloads/libzip/regress/can_clone_file.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/regress",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/regress/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/fopen_unchanged.dir/fopen_unchanged.c.o -c /Users/Josh/Downloads/libzip/regress/fopen_unchanged.c",
+  "file": "/Users/Josh/Downloads/libzip/regress/fopen_unchanged.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/regress",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/regress/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/fseek.dir/fseek.c.o -c /Users/Josh/Downloads/libzip/regress/fseek.c",
+  "file": "/Users/Josh/Downloads/libzip/regress/fseek.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/regress",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/regress/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/fuzz_main.dir/fuzz_main.c.o -c /Users/Josh/Downloads/libzip/regress/fuzz_main.c",
+  "file": "/Users/Josh/Downloads/libzip/regress/fuzz_main.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/regress",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/regress/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/nonrandomopentest.dir/nonrandomopentest.c.o -c /Users/Josh/Downloads/libzip/regress/nonrandomopentest.c",
+  "file": "/Users/Josh/Downloads/libzip/regress/nonrandomopentest.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/regress",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/regress/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/liboverride-test.dir/liboverride-test.c.o -c /Users/Josh/Downloads/libzip/regress/liboverride-test.c",
+  "file": "/Users/Josh/Downloads/libzip/regress/liboverride-test.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/regress",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/regress/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/fread.dir/fread.c.o -c /Users/Josh/Downloads/libzip/regress/fread.c",
+  "file": "/Users/Josh/Downloads/libzip/regress/fread.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/regress",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/regress/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/tryopen.dir/tryopen.c.o -c /Users/Josh/Downloads/libzip/regress/tryopen.c",
+  "file": "/Users/Josh/Downloads/libzip/regress/tryopen.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/regress",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/regress/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/hole.dir/hole.c.o -c /Users/Josh/Downloads/libzip/regress/hole.c",
+  "file": "/Users/Josh/Downloads/libzip/regress/hole.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/regress",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/regress/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/hole.dir/source_hole.c.o -c /Users/Josh/Downloads/libzip/regress/source_hole.c",
+  "file": "/Users/Josh/Downloads/libzip/regress/source_hole.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/regress",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/regress/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -I/Users/Josh/Downloads/libzip/src  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/ziptool_regress.dir/ziptool_regress.c.o -c /Users/Josh/Downloads/libzip/regress/ziptool_regress.c",
+  "file": "/Users/Josh/Downloads/libzip/regress/ziptool_regress.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/regress",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/regress/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build -I/Users/Josh/Downloads/libzip/src  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/ziptool_regress.dir/source_hole.c.o -c /Users/Josh/Downloads/libzip/regress/source_hole.c",
+  "file": "/Users/Josh/Downloads/libzip/regress/source_hole.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/regress",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dnonrandomopen_EXPORTS -I/Users/Josh/Downloads/libzip/regress/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -o CMakeFiles/nonrandomopen.dir/nonrandomopen.c.o -c /Users/Josh/Downloads/libzip/regress/nonrandomopen.c",
+  "file": "/Users/Josh/Downloads/libzip/regress/nonrandomopen.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/regress",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dliboverride_EXPORTS -I/Users/Josh/Downloads/libzip/regress/BEFORE -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -fPIC -o CMakeFiles/liboverride.dir/liboverride.c.o -c /Users/Josh/Downloads/libzip/regress/liboverride.c",
+  "file": "/Users/Josh/Downloads/libzip/regress/liboverride.c"
+},
+{
+  "directory": "/Users/Josh/Downloads/libzip/build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/Josh/Downloads/libzip/lib -I/Users/Josh/Downloads/libzip/build  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o CMakeFiles/in-memory.dir/in-memory.c.o -c /Users/Josh/Downloads/libzip/examples/in-memory.c",
+  "file": "/Users/Josh/Downloads/libzip/examples/in-memory.c"
+}
+]

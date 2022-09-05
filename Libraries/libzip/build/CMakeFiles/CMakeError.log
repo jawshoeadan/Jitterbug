@@ -1,0 +1,678 @@
+Determining if the function _close exists failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_95d73/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_95d73.dir/build.make CMakeFiles/cmTC_95d73.dir/build
+Building C object CMakeFiles/cmTC_95d73.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_close -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_95d73.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_95d73.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_95d73.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95d73
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95d73.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_close -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_95d73.dir/CheckFunctionExists.c.o -o cmTC_95d73 
+Undefined symbols for architecture arm64:
+  "__close", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_95d73] Error 1
+make: *** [cmTC_95d73/fast] Error 2
+
+
+
+Determining if the function _dup exists failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4fd21/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4fd21.dir/build.make CMakeFiles/cmTC_4fd21.dir/build
+Building C object CMakeFiles/cmTC_4fd21.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_dup -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_4fd21.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_4fd21.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_4fd21.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4fd21
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fd21.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_dup -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4fd21.dir/CheckFunctionExists.c.o -o cmTC_4fd21 
+Undefined symbols for architecture arm64:
+  "__dup", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_4fd21] Error 1
+make: *** [cmTC_4fd21/fast] Error 2
+
+
+
+Determining if the function _fdopen exists failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_585eb/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_585eb.dir/build.make CMakeFiles/cmTC_585eb.dir/build
+Building C object CMakeFiles/cmTC_585eb.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_fdopen -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_585eb.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_585eb.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_585eb.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_585eb
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_585eb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_fdopen -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_585eb.dir/CheckFunctionExists.c.o -o cmTC_585eb 
+Undefined symbols for architecture arm64:
+  "__fdopen", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_585eb] Error 1
+make: *** [cmTC_585eb/fast] Error 2
+
+
+
+Determining if the function _fileno exists failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b987a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b987a.dir/build.make CMakeFiles/cmTC_b987a.dir/build
+Building C object CMakeFiles/cmTC_b987a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_fileno -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_b987a.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_b987a.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_b987a.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b987a
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b987a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_fileno -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b987a.dir/CheckFunctionExists.c.o -o cmTC_b987a 
+Undefined symbols for architecture arm64:
+  "__fileno", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_b987a] Error 1
+make: *** [cmTC_b987a/fast] Error 2
+
+
+
+Determining if the function _setmode exists failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ea06b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ea06b.dir/build.make CMakeFiles/cmTC_ea06b.dir/build
+Building C object CMakeFiles/cmTC_ea06b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_setmode -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_ea06b.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_ea06b.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_ea06b.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ea06b
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea06b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_setmode -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ea06b.dir/CheckFunctionExists.c.o -o cmTC_ea06b 
+Undefined symbols for architecture arm64:
+  "__setmode", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_ea06b] Error 1
+make: *** [cmTC_ea06b/fast] Error 2
+
+
+
+Determining if the _snprintf exist failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e6920/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e6920.dir/build.make CMakeFiles/cmTC_e6920.dir/build
+Building C object CMakeFiles/cmTC_e6920.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_e6920.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_e6920.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_e6920.dir/CheckSymbolExists.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '_snprintf'
+  return ((int*)(&_snprintf))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_e6920.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_e6920/fast] Error 2
+
+
+File /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _snprintf
+  return ((int*)(&_snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function _strdup exists failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a79b7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a79b7.dir/build.make CMakeFiles/cmTC_a79b7.dir/build
+Building C object CMakeFiles/cmTC_a79b7.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strdup -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_a79b7.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_a79b7.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_a79b7.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a79b7
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a79b7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strdup -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a79b7.dir/CheckFunctionExists.c.o -o cmTC_a79b7 
+Undefined symbols for architecture arm64:
+  "__strdup", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_a79b7] Error 1
+make: *** [cmTC_a79b7/fast] Error 2
+
+
+
+Determining if the _stricmp exist failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c6208/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c6208.dir/build.make CMakeFiles/cmTC_c6208.dir/build
+Building C object CMakeFiles/cmTC_c6208.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_c6208.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c6208.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c6208.dir/CheckSymbolExists.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '_stricmp'
+  return ((int*)(&_stricmp))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c6208.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_c6208/fast] Error 2
+
+
+File /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _stricmp
+  return ((int*)(&_stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function _strtoi64 exists failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d0bd5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d0bd5.dir/build.make CMakeFiles/cmTC_d0bd5.dir/build
+Building C object CMakeFiles/cmTC_d0bd5.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strtoi64 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_d0bd5.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_d0bd5.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_d0bd5.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d0bd5
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0bd5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strtoi64 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d0bd5.dir/CheckFunctionExists.c.o -o cmTC_d0bd5 
+Undefined symbols for architecture arm64:
+  "__strtoi64", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d0bd5] Error 1
+make: *** [cmTC_d0bd5/fast] Error 2
+
+
+
+Determining if the function _strtoui64 exists failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fb5f7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_fb5f7.dir/build.make CMakeFiles/cmTC_fb5f7.dir/build
+Building C object CMakeFiles/cmTC_fb5f7.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strtoui64 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_fb5f7.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_fb5f7.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_fb5f7.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fb5f7
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb5f7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strtoui64 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fb5f7.dir/CheckFunctionExists.c.o -o cmTC_fb5f7 
+Undefined symbols for architecture arm64:
+  "__strtoui64", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_fb5f7] Error 1
+make: *** [cmTC_fb5f7/fast] Error 2
+
+
+
+Determining if the function _unlink exists failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_02e80/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_02e80.dir/build.make CMakeFiles/cmTC_02e80.dir/build
+Building C object CMakeFiles/cmTC_02e80.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_unlink -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_02e80.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_02e80.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_02e80.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_02e80
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02e80.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_unlink -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_02e80.dir/CheckFunctionExists.c.o -o cmTC_02e80 
+Undefined symbols for architecture arm64:
+  "__unlink", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_02e80] Error 1
+make: *** [cmTC_02e80/fast] Error 2
+
+
+
+Determining if the function explicit_bzero exists failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cf446/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cf446.dir/build.make CMakeFiles/cmTC_cf446.dir/build
+Building C object CMakeFiles/cmTC_cf446.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=explicit_bzero -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_cf446.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_cf446.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_cf446.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cf446
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf446.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=explicit_bzero -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cf446.dir/CheckFunctionExists.c.o -o cmTC_cf446 
+Undefined symbols for architecture arm64:
+  "_explicit_bzero", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_cf446] Error 1
+make: *** [cmTC_cf446/fast] Error 2
+
+
+
+Determining if the function explicit_memset exists failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_75c61/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_75c61.dir/build.make CMakeFiles/cmTC_75c61.dir/build
+Building C object CMakeFiles/cmTC_75c61.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=explicit_memset -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_75c61.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_75c61.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_75c61.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_75c61
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75c61.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=explicit_memset -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_75c61.dir/CheckFunctionExists.c.o -o cmTC_75c61 
+Undefined symbols for architecture arm64:
+  "_explicit_memset", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_75c61] Error 1
+make: *** [cmTC_75c61/fast] Error 2
+
+
+
+Determining if the function stricmp exists failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4eb7e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4eb7e.dir/build.make CMakeFiles/cmTC_4eb7e.dir/build
+Building C object CMakeFiles/cmTC_4eb7e.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=stricmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_4eb7e.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_4eb7e.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_4eb7e.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4eb7e
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4eb7e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=stricmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4eb7e.dir/CheckFunctionExists.c.o -o cmTC_4eb7e 
+Undefined symbols for architecture arm64:
+  "_stricmp", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_4eb7e] Error 1
+make: *** [cmTC_4eb7e/fast] Error 2
+
+
+
+Determining size of __int8 failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_376f2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_376f2.dir/build.make CMakeFiles/cmTC_376f2.dir/build
+Building C object CMakeFiles/cmTC_376f2.dir/__INT8_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_376f2.dir/__INT8_LIBZIP.c.o -MF CMakeFiles/cmTC_376f2.dir/__INT8_LIBZIP.c.o.d -o CMakeFiles/cmTC_376f2.dir/__INT8_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:29:12: error: use of undeclared identifier '__int8'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int8))
+                     ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:30:12: error: use of undeclared identifier '__int8'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int8))
+                     ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:31:12: error: use of undeclared identifier '__int8'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int8))
+                     ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:32:12: error: use of undeclared identifier '__int8'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int8))
+                     ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:33:12: error: use of undeclared identifier '__int8'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int8))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_376f2.dir/__INT8_LIBZIP.c.o] Error 1
+make: *** [cmTC_376f2/fast] Error 2
+
+
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int16 failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_64c3d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_64c3d.dir/build.make CMakeFiles/cmTC_64c3d.dir/build
+Building C object CMakeFiles/cmTC_64c3d.dir/__INT16_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_64c3d.dir/__INT16_LIBZIP.c.o -MF CMakeFiles/cmTC_64c3d.dir/__INT16_LIBZIP.c.o.d -o CMakeFiles/cmTC_64c3d.dir/__INT16_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:29:12: error: use of undeclared identifier '__int16'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int16))
+                     ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:30:12: error: use of undeclared identifier '__int16'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int16))
+                     ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:31:12: error: use of undeclared identifier '__int16'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int16))
+                     ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:32:12: error: use of undeclared identifier '__int16'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int16))
+                     ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:33:12: error: use of undeclared identifier '__int16'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int16))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_64c3d.dir/__INT16_LIBZIP.c.o] Error 1
+make: *** [cmTC_64c3d/fast] Error 2
+
+
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int32 failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4049e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4049e.dir/build.make CMakeFiles/cmTC_4049e.dir/build
+Building C object CMakeFiles/cmTC_4049e.dir/__INT32_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_4049e.dir/__INT32_LIBZIP.c.o -MF CMakeFiles/cmTC_4049e.dir/__INT32_LIBZIP.c.o.d -o CMakeFiles/cmTC_4049e.dir/__INT32_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:29:12: error: use of undeclared identifier '__int32'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int32))
+                     ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:30:12: error: use of undeclared identifier '__int32'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int32))
+                     ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:31:12: error: use of undeclared identifier '__int32'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int32))
+                     ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:32:12: error: use of undeclared identifier '__int32'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int32))
+                     ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:33:12: error: use of undeclared identifier '__int32'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int32))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_4049e.dir/__INT32_LIBZIP.c.o] Error 1
+make: *** [cmTC_4049e/fast] Error 2
+
+
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_de3df/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_de3df.dir/build.make CMakeFiles/cmTC_de3df.dir/build
+Building C object CMakeFiles/cmTC_de3df.dir/__INT64_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_de3df.dir/__INT64_LIBZIP.c.o -MF CMakeFiles/cmTC_de3df.dir/__INT64_LIBZIP.c.o.d -o CMakeFiles/cmTC_de3df.dir/__INT64_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:29:12: error: use of undeclared identifier '__int64'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:30:12: error: use of undeclared identifier '__int64'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:31:12: error: use of undeclared identifier '__int64'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:32:12: error: use of undeclared identifier '__int64'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:33:12: error: use of undeclared identifier '__int64'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_de3df.dir/__INT64_LIBZIP.c.o] Error 1
+make: *** [cmTC_de3df/fast] Error 2
+
+
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test HAVE_FICLONERANGE failed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7cc5f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7cc5f.dir/build.make CMakeFiles/cmTC_7cc5f.dir/build
+Building C object CMakeFiles/cmTC_7cc5f.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_FICLONERANGE  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_7cc5f.dir/src.c.o -MF CMakeFiles/cmTC_7cc5f.dir/src.c.o.d -o CMakeFiles/cmTC_7cc5f.dir/src.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/src.c
+/Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'linux/fs.h' file not found
+#include <linux/fs.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7cc5f.dir/src.c.o] Error 1
+make: *** [cmTC_7cc5f/fast] Error 2
+
+
+Source file was:
+#include <sys/ioctl.h>
+#include <linux/fs.h>
+int main(int argc, char *argv[]) { unsigned long x = FICLONERANGE; }

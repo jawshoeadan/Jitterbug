@@ -18,6 +18,8 @@
 #define Jitterbug_Bridging_Header_h
 
 #import <TargetConditionals.h>
+#import <libimobiledevice/installation_proxy.h>
+#import <libimobiledevice/libimobiledevice.h>
 #import "JBHostDevice.h"
 #if TARGET_OS_OSX
 #import "JBHostFinder.h"

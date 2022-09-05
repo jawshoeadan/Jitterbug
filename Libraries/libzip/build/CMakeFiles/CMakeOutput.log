@@ -1,0 +1,758 @@
+The system is: Darwin - 21.6.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/Josh/Downloads/libzip/build/CMakeFiles/3.24.1/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f496f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f496f.dir/build.make CMakeFiles/cmTC_f496f.dir/build
+Building C object CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CMakeCCompilerABI.c
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+Target: arm64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios15.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a7 -target-feature +fp-armv8 -target-feature +neon -target-feature +crypto -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 763 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6 -dependency-file CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-objc-load-method -fdebug-compilation-dir=/Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 13.1.6 (clang-1316.0.21.2.5) default target arm64-apple-darwin21.6.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_f496f
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f496f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o -o cmTC_f496f 
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+Target: arm64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios 15.5.0 15.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o cmTC_f496f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/lib/darwin/libclang_rt.ios.a
+@(#)PROGRAM:ld  PROJECT:ld64-764
+BUILD 11:29:07 May 17 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_f496f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f496f.dir/build.make CMakeFiles/cmTC_f496f.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 13.1.6 (clang-1316.0.21.2.5)]
+  ignore line: [Target: arm64-apple-darwin21.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios15.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a7 -target-feature +fp-armv8 -target-feature +neon -target-feature +crypto -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 763 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6 -dependency-file CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-objc-load-method -fdebug-compilation-dir=/Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 13.1.6 (clang-1316.0.21.2.5) default target arm64-apple-darwin21.6.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_f496f]
+  ignore line: [/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f496f.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o -o cmTC_f496f ]
+  ignore line: [Apple clang version 13.1.6 (clang-1316.0.21.2.5)]
+  ignore line: [Target: arm64-apple-darwin21.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios 15.5.0 15.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o cmTC_f496f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/lib/darwin/libclang_rt.ios.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [ios] ==> ignore
+    arg [15.5.0] ==> ignore
+    arg [15.5] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f496f] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_f496f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/lib/darwin/libclang_rt.ios.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/lib/darwin/libclang_rt.ios.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/lib/darwin/libclang_rt.ios.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks]
+
+
+Determining if files CommonCrypto/CommonCrypto.h exist passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f3f57/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f3f57.dir/build.make CMakeFiles/cmTC_f3f57.dir/build
+Building C object CMakeFiles/cmTC_f3f57.dir/COMMONCRYPTO_FOUND.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_f3f57.dir/COMMONCRYPTO_FOUND.c.o -MF CMakeFiles/cmTC_f3f57.dir/COMMONCRYPTO_FOUND.c.o.d -o CMakeFiles/cmTC_f3f57.dir/COMMONCRYPTO_FOUND.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckIncludeFiles/COMMONCRYPTO_FOUND.c
+Linking C executable cmTC_f3f57
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3f57.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f3f57.dir/COMMONCRYPTO_FOUND.c.o -o cmTC_f3f57 
+
+
+
+Determining if the function arc4random exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f98c9/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f98c9.dir/build.make CMakeFiles/cmTC_f98c9.dir/build
+Building C object CMakeFiles/cmTC_f98c9.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=arc4random -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_f98c9.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_f98c9.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_f98c9.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f98c9
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f98c9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=arc4random -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f98c9.dir/CheckFunctionExists.c.o -o cmTC_f98c9 
+
+
+
+Determining if the function clonefile exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1502c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1502c.dir/build.make CMakeFiles/cmTC_1502c.dir/build
+Building C object CMakeFiles/cmTC_1502c.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clonefile -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_1502c.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_1502c.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_1502c.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1502c
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1502c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clonefile -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1502c.dir/CheckFunctionExists.c.o -o cmTC_1502c 
+
+
+
+Determining if the function fchmod exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_54a10/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_54a10.dir/build.make CMakeFiles/cmTC_54a10.dir/build
+Building C object CMakeFiles/cmTC_54a10.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fchmod -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_54a10.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_54a10.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_54a10.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_54a10
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54a10.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fchmod -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_54a10.dir/CheckFunctionExists.c.o -o cmTC_54a10 
+
+
+
+Determining if the function fileno exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_636ea/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_636ea.dir/build.make CMakeFiles/cmTC_636ea.dir/build
+Building C object CMakeFiles/cmTC_636ea.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fileno -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_636ea.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_636ea.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_636ea.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_636ea
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_636ea.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fileno -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_636ea.dir/CheckFunctionExists.c.o -o cmTC_636ea 
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3ca3a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3ca3a.dir/build.make CMakeFiles/cmTC_3ca3a.dir/build
+Building C object CMakeFiles/cmTC_3ca3a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_3ca3a.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_3ca3a.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_3ca3a.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3ca3a
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ca3a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3ca3a.dir/CheckFunctionExists.c.o -o cmTC_3ca3a 
+
+
+
+Determining if the function ftello exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cc784/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cc784.dir/build.make CMakeFiles/cmTC_cc784.dir/build
+Building C object CMakeFiles/cmTC_cc784.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ftello -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_cc784.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_cc784.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_cc784.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cc784
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc784.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ftello -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cc784.dir/CheckFunctionExists.c.o -o cmTC_cc784 
+
+
+
+Determining if the function getprogname exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d5dae/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d5dae.dir/build.make CMakeFiles/cmTC_d5dae.dir/build
+Building C object CMakeFiles/cmTC_d5dae.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getprogname -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_d5dae.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_d5dae.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_d5dae.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d5dae
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5dae.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getprogname -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d5dae.dir/CheckFunctionExists.c.o -o cmTC_d5dae 
+
+
+
+Determining if the function localtime_r exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1a557/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1a557.dir/build.make CMakeFiles/cmTC_1a557.dir/build
+Building C object CMakeFiles/cmTC_1a557.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=localtime_r -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_1a557.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_1a557.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_1a557.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1a557
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a557.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=localtime_r -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1a557.dir/CheckFunctionExists.c.o -o cmTC_1a557 
+
+
+
+Determining if the function setmode exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b1901/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b1901.dir/build.make CMakeFiles/cmTC_b1901.dir/build
+Building C object CMakeFiles/cmTC_b1901.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setmode -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_b1901.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_b1901.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_b1901.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b1901
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1901.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setmode -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b1901.dir/CheckFunctionExists.c.o -o cmTC_b1901 
+
+
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5b147/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5b147.dir/build.make CMakeFiles/cmTC_5b147.dir/build
+Building C object CMakeFiles/cmTC_5b147.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_5b147.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_5b147.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_5b147.dir/CheckSymbolExists.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5b147
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b147.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5b147.dir/CheckSymbolExists.c.o -o cmTC_5b147 
+
+
+File /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ec8f4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ec8f4.dir/build.make CMakeFiles/cmTC_ec8f4.dir/build
+Building C object CMakeFiles/cmTC_ec8f4.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_ec8f4.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_ec8f4.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_ec8f4.dir/CheckSymbolExists.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ec8f4
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec8f4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ec8f4.dir/CheckSymbolExists.c.o -o cmTC_ec8f4 
+
+
+File /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function strdup exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3b7a4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3b7a4.dir/build.make CMakeFiles/cmTC_3b7a4.dir/build
+Building C object CMakeFiles/cmTC_3b7a4.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_3b7a4.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_3b7a4.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_3b7a4.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+/opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strdup' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strdup
+                              ^
+/opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strdup' is a builtin with type 'char *(const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strdup
+                              ^
+1 warning generated.
+Linking C executable cmTC_3b7a4
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b7a4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strdup -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3b7a4.dir/CheckFunctionExists.c.o -o cmTC_3b7a4 
+
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d8b5f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d8b5f.dir/build.make CMakeFiles/cmTC_d8b5f.dir/build
+Building C object CMakeFiles/cmTC_d8b5f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoll -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_d8b5f.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_d8b5f.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_d8b5f.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+/opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtoll' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoll
+                              ^
+/opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strtoll' is a builtin with type 'long long (const char *, char **, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoll
+                              ^
+1 warning generated.
+Linking C executable cmTC_d8b5f
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8b5f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtoll -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d8b5f.dir/CheckFunctionExists.c.o -o cmTC_d8b5f 
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_656f8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_656f8.dir/build.make CMakeFiles/cmTC_656f8.dir/build
+Building C object CMakeFiles/cmTC_656f8.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoull -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_656f8.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_656f8.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_656f8.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+/opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtoull' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoull
+                              ^
+/opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strtoull' is a builtin with type 'unsigned long long (const char *, char **, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoull
+                              ^
+1 warning generated.
+Linking C executable cmTC_656f8
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_656f8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtoull -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_656f8.dir/CheckFunctionExists.c.o -o cmTC_656f8 
+
+
+
+Determining if files sys/types.h;sys/stat.h;fts.h exist passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e5225/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e5225.dir/build.make CMakeFiles/cmTC_e5225.dir/build
+Building C object CMakeFiles/cmTC_e5225.dir/HAVE_FTS_H.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_e5225.dir/HAVE_FTS_H.c.o -MF CMakeFiles/cmTC_e5225.dir/HAVE_FTS_H.c.o.d -o CMakeFiles/cmTC_e5225.dir/HAVE_FTS_H.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckIncludeFiles/HAVE_FTS_H.c
+Linking C executable cmTC_e5225
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5225.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e5225.dir/HAVE_FTS_H.c.o -o cmTC_e5225 
+
+
+
+Determining if the function fts_open exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_75e1d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_75e1d.dir/build.make CMakeFiles/cmTC_75e1d.dir/build
+Building C object CMakeFiles/cmTC_75e1d.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fts_open -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_75e1d.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_75e1d.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_75e1d.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_75e1d
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75e1d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fts_open -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_75e1d.dir/CheckFunctionExists.c.o -o cmTC_75e1d 
+
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8a50c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8a50c.dir/build.make CMakeFiles/cmTC_8a50c.dir/build
+Building C object CMakeFiles/cmTC_8a50c.dir/HAVE_STDBOOL_H.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_8a50c.dir/HAVE_STDBOOL_H.c.o -MF CMakeFiles/cmTC_8a50c.dir/HAVE_STDBOOL_H.c.o.d -o CMakeFiles/cmTC_8a50c.dir/HAVE_STDBOOL_H.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckIncludeFiles/HAVE_STDBOOL_H.c
+Linking C executable cmTC_8a50c
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a50c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8a50c.dir/HAVE_STDBOOL_H.c.o -o cmTC_8a50c 
+
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1d241/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1d241.dir/build.make CMakeFiles/cmTC_1d241.dir/build
+Building C object CMakeFiles/cmTC_1d241.dir/HAVE_STRINGS_H.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_1d241.dir/HAVE_STRINGS_H.c.o -MF CMakeFiles/cmTC_1d241.dir/HAVE_STRINGS_H.c.o.d -o CMakeFiles/cmTC_1d241.dir/HAVE_STRINGS_H.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckIncludeFiles/HAVE_STRINGS_H.c
+Linking C executable cmTC_1d241
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d241.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1d241.dir/HAVE_STRINGS_H.c.o -o cmTC_1d241 
+
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4a4d9/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4a4d9.dir/build.make CMakeFiles/cmTC_4a4d9.dir/build
+Building C object CMakeFiles/cmTC_4a4d9.dir/HAVE_UNISTD_H.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_4a4d9.dir/HAVE_UNISTD_H.c.o -MF CMakeFiles/cmTC_4a4d9.dir/HAVE_UNISTD_H.c.o.d -o CMakeFiles/cmTC_4a4d9.dir/HAVE_UNISTD_H.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+Linking C executable cmTC_4a4d9
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a4d9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4a4d9.dir/HAVE_UNISTD_H.c.o -o cmTC_4a4d9 
+
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_89a71/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_89a71.dir/build.make CMakeFiles/cmTC_89a71.dir/build
+Building C object CMakeFiles/cmTC_89a71.dir/HAVE_INTTYPES_H_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_89a71.dir/HAVE_INTTYPES_H_LIBZIP.c.o -MF CMakeFiles/cmTC_89a71.dir/HAVE_INTTYPES_H_LIBZIP.c.o.d -o CMakeFiles/cmTC_89a71.dir/HAVE_INTTYPES_H_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckIncludeFiles/HAVE_INTTYPES_H_LIBZIP.c
+Linking C executable cmTC_89a71
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89a71.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_89a71.dir/HAVE_INTTYPES_H_LIBZIP.c.o -o cmTC_89a71 
+
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d7f22/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d7f22.dir/build.make CMakeFiles/cmTC_d7f22.dir/build
+Building C object CMakeFiles/cmTC_d7f22.dir/HAVE_STDINT_H_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_d7f22.dir/HAVE_STDINT_H_LIBZIP.c.o -MF CMakeFiles/cmTC_d7f22.dir/HAVE_STDINT_H_LIBZIP.c.o.d -o CMakeFiles/cmTC_d7f22.dir/HAVE_STDINT_H_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckIncludeFiles/HAVE_STDINT_H_LIBZIP.c
+Linking C executable cmTC_d7f22
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7f22.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d7f22.dir/HAVE_STDINT_H_LIBZIP.c.o -o cmTC_d7f22 
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dc05a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_dc05a.dir/build.make CMakeFiles/cmTC_dc05a.dir/build
+Building C object CMakeFiles/cmTC_dc05a.dir/HAVE_SYS_TYPES_H_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_dc05a.dir/HAVE_SYS_TYPES_H_LIBZIP.c.o -MF CMakeFiles/cmTC_dc05a.dir/HAVE_SYS_TYPES_H_LIBZIP.c.o.d -o CMakeFiles/cmTC_dc05a.dir/HAVE_SYS_TYPES_H_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TYPES_H_LIBZIP.c
+Linking C executable cmTC_dc05a
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc05a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_dc05a.dir/HAVE_SYS_TYPES_H_LIBZIP.c.o -o cmTC_dc05a 
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d4663/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d4663.dir/build.make CMakeFiles/cmTC_d4663.dir/build
+Building C object CMakeFiles/cmTC_d4663.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_d4663.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_d4663.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_d4663.dir/CheckIncludeFile.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d4663
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4663.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d4663.dir/CheckIncludeFile.c.o -o cmTC_d4663 
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_317e9/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_317e9.dir/build.make CMakeFiles/cmTC_317e9.dir/build
+Building C object CMakeFiles/cmTC_317e9.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_317e9.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_317e9.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_317e9.dir/CheckIncludeFile.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_317e9
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_317e9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_317e9.dir/CheckIncludeFile.c.o -o cmTC_317e9 
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_83a11/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_83a11.dir/build.make CMakeFiles/cmTC_83a11.dir/build
+Building C object CMakeFiles/cmTC_83a11.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_83a11.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_83a11.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_83a11.dir/CheckIncludeFile.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_83a11
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83a11.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_83a11.dir/CheckIncludeFile.c.o -o cmTC_83a11 
+
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1dc91/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1dc91.dir/build.make CMakeFiles/cmTC_1dc91.dir/build
+Building C object CMakeFiles/cmTC_1dc91.dir/INT8_T_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_1dc91.dir/INT8_T_LIBZIP.c.o -MF CMakeFiles/cmTC_1dc91.dir/INT8_T_LIBZIP.c.o.d -o CMakeFiles/cmTC_1dc91.dir/INT8_T_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/INT8_T_LIBZIP.c
+Linking C executable cmTC_1dc91
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dc91.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1dc91.dir/INT8_T_LIBZIP.c.o -o cmTC_1dc91 
+
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_356cd/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_356cd.dir/build.make CMakeFiles/cmTC_356cd.dir/build
+Building C object CMakeFiles/cmTC_356cd.dir/UINT8_T_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_356cd.dir/UINT8_T_LIBZIP.c.o -MF CMakeFiles/cmTC_356cd.dir/UINT8_T_LIBZIP.c.o.d -o CMakeFiles/cmTC_356cd.dir/UINT8_T_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/UINT8_T_LIBZIP.c
+Linking C executable cmTC_356cd
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_356cd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_356cd.dir/UINT8_T_LIBZIP.c.o -o cmTC_356cd 
+
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e5226/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e5226.dir/build.make CMakeFiles/cmTC_e5226.dir/build
+Building C object CMakeFiles/cmTC_e5226.dir/INT16_T_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_e5226.dir/INT16_T_LIBZIP.c.o -MF CMakeFiles/cmTC_e5226.dir/INT16_T_LIBZIP.c.o.d -o CMakeFiles/cmTC_e5226.dir/INT16_T_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/INT16_T_LIBZIP.c
+Linking C executable cmTC_e5226
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5226.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e5226.dir/INT16_T_LIBZIP.c.o -o cmTC_e5226 
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_153ac/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_153ac.dir/build.make CMakeFiles/cmTC_153ac.dir/build
+Building C object CMakeFiles/cmTC_153ac.dir/UINT16_T_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_153ac.dir/UINT16_T_LIBZIP.c.o -MF CMakeFiles/cmTC_153ac.dir/UINT16_T_LIBZIP.c.o.d -o CMakeFiles/cmTC_153ac.dir/UINT16_T_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/UINT16_T_LIBZIP.c
+Linking C executable cmTC_153ac
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_153ac.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_153ac.dir/UINT16_T_LIBZIP.c.o -o cmTC_153ac 
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5c657/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5c657.dir/build.make CMakeFiles/cmTC_5c657.dir/build
+Building C object CMakeFiles/cmTC_5c657.dir/INT32_T_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_5c657.dir/INT32_T_LIBZIP.c.o -MF CMakeFiles/cmTC_5c657.dir/INT32_T_LIBZIP.c.o.d -o CMakeFiles/cmTC_5c657.dir/INT32_T_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/INT32_T_LIBZIP.c
+Linking C executable cmTC_5c657
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c657.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5c657.dir/INT32_T_LIBZIP.c.o -o cmTC_5c657 
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f0421/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f0421.dir/build.make CMakeFiles/cmTC_f0421.dir/build
+Building C object CMakeFiles/cmTC_f0421.dir/UINT32_T_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_f0421.dir/UINT32_T_LIBZIP.c.o -MF CMakeFiles/cmTC_f0421.dir/UINT32_T_LIBZIP.c.o.d -o CMakeFiles/cmTC_f0421.dir/UINT32_T_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/UINT32_T_LIBZIP.c
+Linking C executable cmTC_f0421
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0421.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f0421.dir/UINT32_T_LIBZIP.c.o -o cmTC_f0421 
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5af4d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5af4d.dir/build.make CMakeFiles/cmTC_5af4d.dir/build
+Building C object CMakeFiles/cmTC_5af4d.dir/INT64_T_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_5af4d.dir/INT64_T_LIBZIP.c.o -MF CMakeFiles/cmTC_5af4d.dir/INT64_T_LIBZIP.c.o.d -o CMakeFiles/cmTC_5af4d.dir/INT64_T_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/INT64_T_LIBZIP.c
+Linking C executable cmTC_5af4d
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5af4d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5af4d.dir/INT64_T_LIBZIP.c.o -o cmTC_5af4d 
+
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_243e2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_243e2.dir/build.make CMakeFiles/cmTC_243e2.dir/build
+Building C object CMakeFiles/cmTC_243e2.dir/UINT64_T_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_243e2.dir/UINT64_T_LIBZIP.c.o -MF CMakeFiles/cmTC_243e2.dir/UINT64_T_LIBZIP.c.o.d -o CMakeFiles/cmTC_243e2.dir/UINT64_T_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/UINT64_T_LIBZIP.c
+Linking C executable cmTC_243e2
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_243e2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_243e2.dir/UINT64_T_LIBZIP.c.o -o cmTC_243e2 
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_176ff/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_176ff.dir/build.make CMakeFiles/cmTC_176ff.dir/build
+Building C object CMakeFiles/cmTC_176ff.dir/SHORT_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_176ff.dir/SHORT_LIBZIP.c.o -MF CMakeFiles/cmTC_176ff.dir/SHORT_LIBZIP.c.o.d -o CMakeFiles/cmTC_176ff.dir/SHORT_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/SHORT_LIBZIP.c
+Linking C executable cmTC_176ff
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_176ff.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_176ff.dir/SHORT_LIBZIP.c.o -o cmTC_176ff 
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_16e0e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_16e0e.dir/build.make CMakeFiles/cmTC_16e0e.dir/build
+Building C object CMakeFiles/cmTC_16e0e.dir/INT_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_16e0e.dir/INT_LIBZIP.c.o -MF CMakeFiles/cmTC_16e0e.dir/INT_LIBZIP.c.o.d -o CMakeFiles/cmTC_16e0e.dir/INT_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/INT_LIBZIP.c
+Linking C executable cmTC_16e0e
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16e0e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_16e0e.dir/INT_LIBZIP.c.o -o cmTC_16e0e 
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_97251/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_97251.dir/build.make CMakeFiles/cmTC_97251.dir/build
+Building C object CMakeFiles/cmTC_97251.dir/LONG_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_97251.dir/LONG_LIBZIP.c.o -MF CMakeFiles/cmTC_97251.dir/LONG_LIBZIP.c.o.d -o CMakeFiles/cmTC_97251.dir/LONG_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/LONG_LIBZIP.c
+Linking C executable cmTC_97251
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97251.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_97251.dir/LONG_LIBZIP.c.o -o cmTC_97251 
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_432a9/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_432a9.dir/build.make CMakeFiles/cmTC_432a9.dir/build
+Building C object CMakeFiles/cmTC_432a9.dir/LONG_LONG_LIBZIP.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_432a9.dir/LONG_LONG_LIBZIP.c.o -MF CMakeFiles/cmTC_432a9.dir/LONG_LONG_LIBZIP.c.o.d -o CMakeFiles/cmTC_432a9.dir/LONG_LONG_LIBZIP.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/LONG_LONG_LIBZIP.c
+Linking C executable cmTC_432a9
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_432a9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_432a9.dir/LONG_LONG_LIBZIP.c.o -o cmTC_432a9 
+
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ba79d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ba79d.dir/build.make CMakeFiles/cmTC_ba79d.dir/build
+Building C object CMakeFiles/cmTC_ba79d.dir/SIZEOF_OFF_T.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_ba79d.dir/SIZEOF_OFF_T.c.o -MF CMakeFiles/cmTC_ba79d.dir/SIZEOF_OFF_T.c.o.d -o CMakeFiles/cmTC_ba79d.dir/SIZEOF_OFF_T.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTC_ba79d
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba79d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ba79d.dir/SIZEOF_OFF_T.c.o -o cmTC_ba79d 
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1d489/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1d489.dir/build.make CMakeFiles/cmTC_1d489.dir/build
+Building C object CMakeFiles/cmTC_1d489.dir/SIZEOF_SIZE_T.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_1d489.dir/SIZEOF_SIZE_T.c.o -MF CMakeFiles/cmTC_1d489.dir/SIZEOF_SIZE_T.c.o.d -o CMakeFiles/cmTC_1d489.dir/SIZEOF_SIZE_T.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_1d489
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d489.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1d489.dir/SIZEOF_SIZE_T.c.o -o cmTC_1d489 
+
+
+
+Performing C SOURCE FILE Test HAVE_NULLABLE succeeded with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9ab26/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9ab26.dir/build.make CMakeFiles/cmTC_9ab26.dir/build
+Building C object CMakeFiles/cmTC_9ab26.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_NULLABLE  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_9ab26.dir/src.c.o -MF CMakeFiles/cmTC_9ab26.dir/src.c.o.d -o CMakeFiles/cmTC_9ab26.dir/src.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9ab26
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ab26.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9ab26.dir/src.c.o -o cmTC_9ab26 
+
+
+Source file was:
+
+int foo(char * _Nullable bar);
+int main(int argc, char *argv[]) { }
+Determining if the BZ2_bzCompressInit exist passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1fa27/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1fa27.dir/build.make CMakeFiles/cmTC_1fa27.dir/build
+Building C object CMakeFiles/cmTC_1fa27.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_1fa27.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_1fa27.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_1fa27.dir/CheckSymbolExists.c.o -c /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1fa27
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fa27.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1fa27.dir/CheckSymbolExists.c.o -o cmTC_1fa27  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libbz2.tbd 
+
+
+File /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <bzlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef BZ2_bzCompressInit
+  return ((int*)(&BZ2_bzCompressInit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function lzma_auto_decoder exists in the /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/liblzma.tbd passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6c033/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6c033.dir/build.make CMakeFiles/cmTC_6c033.dir/build
+Building C object CMakeFiles/cmTC_6c033.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lzma_auto_decoder -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_6c033.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_6c033.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_6c033.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6c033
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c033.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lzma_auto_decoder -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6c033.dir/CheckFunctionExists.c.o -o cmTC_6c033  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/liblzma.tbd 
+
+
+
+Determining if the function lzma_easy_encoder exists in the /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/liblzma.tbd passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ff684/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ff684.dir/build.make CMakeFiles/cmTC_ff684.dir/build
+Building C object CMakeFiles/cmTC_ff684.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lzma_easy_encoder -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_ff684.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_ff684.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_ff684.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ff684
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff684.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lzma_easy_encoder -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ff684.dir/CheckFunctionExists.c.o -o cmTC_ff684  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/liblzma.tbd 
+
+
+
+Determining if the function lzma_lzma_preset exists in the /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/liblzma.tbd passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8ed18/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8ed18.dir/build.make CMakeFiles/cmTC_8ed18.dir/build
+Building C object CMakeFiles/cmTC_8ed18.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lzma_lzma_preset -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_8ed18.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_8ed18.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_8ed18.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8ed18
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ed18.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lzma_lzma_preset -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8ed18.dir/CheckFunctionExists.c.o -o cmTC_8ed18  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/liblzma.tbd 
+
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /Users/Josh/Downloads/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9cbf4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9cbf4.dir/build.make CMakeFiles/cmTC_9cbf4.dir/build
+Building C object CMakeFiles/cmTC_9cbf4.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getopt -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -MD -MT CMakeFiles/cmTC_9cbf4.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_9cbf4.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_9cbf4.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9cbf4
+/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cbf4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getopt -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9cbf4.dir/CheckFunctionExists.c.o -o cmTC_9cbf4 
+
+
+

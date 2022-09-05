@@ -4,10 +4,11 @@ LIBIMOBILEDEVICE_CFLAGS := $(shell pkg-config --cflags libimobiledevice-1.0)
 LIBIMOBILEDEVICE_LDFLAGS := $(shell pkg-config --libs libimobiledevice-1.0)
 OPENSSL_CFLAGS := $(shell pkg-config --cflags openssl)
 OPENSSL_LDFLAGS := $(shell pkg-config --libs openssl)
-
+LIBZIP_CFLAGS := $(shell pkg-config --cflags libzip)
+LIBZIP_LDFLAGS := $(shell pkg-config --libs libzip)
 CC := gcc
 LD := gcc
-CFLAGS := -DHAVE_CONFIG_H -ILibraries/include -ILibraries/libimobiledevice -ILibraries/libimobiledevice/common -ILibraries/libimobiledevice/include $(LIBUSBMUXD_CFLAGS) $(LIBIMOBILEDEVICE_CFLAGS) $(OPENSSL_CLFAGS)
+CFLAGS := -DHAVE_CONFIG_H -ILibraries/include -ILibraries/libimobiledevice -ILibraries/libimobiledevice/common -ILibraries/libimobiledevice/include -ILibraries/libzip/lib $(LIBUSBMUXD_CFLAGS) $(LIBIMOBILEDEVICE_CFLAGS) $(OPENSSL_CLFAGS)
 LDFLAGS := $(LIBUSBMUXD_LDFLAGS) $(LIBIMOBILEDEVICE_LDFLAGS) $(OPENSSL_LDFLAGS)
 
 # path macros

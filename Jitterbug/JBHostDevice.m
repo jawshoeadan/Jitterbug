@@ -20,8 +20,10 @@
 #include <libimobiledevice/installation_proxy.h>
 #include <libimobiledevice/lockdown.h>
 #include <libimobiledevice/mobile_image_mounter.h>
+#include <libimobiledevice/notification_proxy.h>
 #include <libimobiledevice/sbservices.h>
 #include <libimobiledevice/service.h>
+#include <libimobiledevice/afc.h>
 #include "common/userpref.h"
 #include "common/utils.h"
 #import "JBApp.h"
@@ -29,6 +31,35 @@
 #import "Jitterbug.h"
 #import "Jitterbug-Swift.h"
 #import "CacheStorage.h"
+#include <dirent.h>
+
+#ifdef HAVE_CONFIG_H
+#include <config.h>
+#endif
+#include <stdlib.h>
+#define _GNU_SOURCE 1
+#define __USE_GNU 1
+#include <stdio.h>
+#include <string.h>
+#include <getopt.h>
+#include <errno.h>
+#include <time.h>
+#include <libgen.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <sys/stat.h>
+#include <dirent.h>
+#ifdef HAVE_UNISTD_H
+#include <unistd.h>
+#endif
+#ifndef WIN32
+#include <signal.h>
+#endif
+
+#include <plist/plist.h>
+
+#include <zip.h>
+
 
 #define TOOL_NAME "jitterbug"
 NSString *const kJBErrorDomain = @"com.osy86.Jitterbug";
@@ -280,6 +311,131 @@ error:
     [self stopLockdown];
     return NO;
 }
+-(void) installAppWithError:(NSError **)error{
+    char* appid = NULL;
+    idevice_t device = self.device;
+    const char PKG_PATH[] = "PublicStaging";
+        lockdownd_client_t client = self.lockdown;
+        instproxy_client_t instproxy_client = NULL;
+        instproxy_error_t err;
+    //    np_client_t np = NULL;
+        afc_client_t afc = NULL;
+        lockdownd_service_descriptor_t service = NULL;
+        int res = 0;
+        char *bundleidentifier = NULL;
+     
+     service_client_factory_start_service_with_lockdown(client, device, INSTPROXY_SERVICE_NAME, (void**)&instproxy_client, TOOL_NAME, SERVICE_CONSTRUCTOR(instproxy_client_new), &err);
+     if (err != INSTPROXY_E_SUCCESS) {
+         [self createError:error withString:NSLocalizedString(@"Failed to start service on device. Make sure the device is connected to the network and unlocked and that the pairing is valid.", @"JBHostDevice") code:err];
+        // goto end;
+     }
+    if ((lockdownd_start_service(client, "com.apple.afc", &service) !=
+                 LOCKDOWN_E_SUCCESS) || !service) {
+                fprintf(stderr, "Could not start com.apple.afc!\n");
+               // res = -1;
+              //  goto leave_cleanup;
+            }
+    plist_t client_opts = instproxy_client_options_new();
+    instproxy_client_options_add(client_opts, "PackageType", "Developer", NULL);
+    
+    printf("Uploading %s package contents... ", basename(appid));
+   // afc_upload_dir(afc, <#const char * _Nonnull path#>, <#const char * _Nonnull afcpath#>)
+}
+static void afc_upload_dir(afc_client_t afc, const char* path, const char* afcpath)
+{
+    afc_make_directory(afc, afcpath);
+
+    DIR *dir = opendir(path);
+    if (dir) {
+        struct dirent* ep;
+        while ((ep = readdir(dir))) {
+            if ((strcmp(ep->d_name, ".") == 0) || (strcmp(ep->d_name, "..") == 0)) {
+                continue;
+            }
+            char *fpath = (char*)malloc(strlen(path)+1+strlen(ep->d_name)+1);
+            char *apath = (char*)malloc(strlen(afcpath)+1+strlen(ep->d_name)+1);
+
+            struct stat st;
+
+            strcpy(fpath, path);
+            strcat(fpath, "/");
+            strcat(fpath, ep->d_name);
+
+            strcpy(apath, afcpath);
+            strcat(apath, "/");
+            strcat(apath, ep->d_name);
+
+#ifdef HAVE_LSTAT
+            if ((lstat(fpath, &st) == 0) && S_ISLNK(st.st_mode)) {
+                char *target = (char *)malloc(st.st_size+1);
+                if (readlink(fpath, target, st.st_size+1) < 0) {
+                    fprintf(stderr, "ERROR: readlink: %s (%d)\n", strerror(errno), errno);
+                } else {
+                    target[st.st_size] = '\0';
+                    afc_make_link(afc, AFC_SYMLINK, target, fpath);
+                }
+                free(target);
+            } else
+#endif
+            if ((stat(fpath, &st) == 0) && S_ISDIR(st.st_mode)) {
+                afc_upload_dir(afc, fpath, apath);
+            } else {
+                afc_upload_file(afc, fpath, apath);
+            }
+            free(fpath);
+            free(apath);
+        }
+        closedir(dir);
+    }
+}
+
+static int afc_upload_file(afc_client_t afc, const char* filename, const char* dstfn)
+{
+    FILE *f = NULL;
+    uint64_t af = 0;
+    char buf[1048576];
+
+    f = fopen(filename, "rb");
+    if (!f) {
+      //  fprintf(stderr, "fopen: %s: %s\n", appid, strerror(errno));
+        return -1;
+    }
+
+    if ((afc_file_open(afc, dstfn, AFC_FOPEN_WRONLY, &af) != AFC_E_SUCCESS) || !af) {
+        fclose(f);
+        fprintf(stderr, "afc_file_open on '%s' failed!\n", dstfn);
+        return -1;
+    }
+
+    size_t amount = 0;
+    do {
+        amount = fread(buf, 1, sizeof(buf), f);
+        if (amount > 0) {
+            uint32_t written, total = 0;
+            while (total < amount) {
+                written = 0;
+                afc_error_t aerr = afc_file_write(afc, af, buf, amount, &written);
+                if (aerr != AFC_E_SUCCESS) {
+                    fprintf(stderr, "AFC Write error: %d\n", aerr);
+                    break;
+                }
+                total += written;
+            }
+            if (total != amount) {
+                fprintf(stderr, "Error: wrote only %u of %u\n", total, (uint32_t)amount);
+                afc_file_close(afc, af);
+                fclose(f);
+                return -1;
+            }
+        }
+    } while (amount > 0);
+
+    afc_file_close(afc, af);
+    fclose(f);
+
+    return 0;
+}
+
 
 - (BOOL)startLockdownWithError:(NSError **)error {
     idevice_error_t derr = IDEVICE_E_SUCCESS;
@@ -495,8 +651,8 @@ end:
 //    }
     
     client_opts = instproxy_client_options_new();
-    instproxy_client_options_add(client_opts, "ApplicationType", "User", NULL);
-    instproxy_client_options_set_return_attributes(client_opts, "CFBundleName", "CFBundleIdentifier", "CFBundleExecutable", "Path", "Container", "iTunesArtwork", NULL);
+//    instproxy_client_options_add(client_opts, "ApplicationType", "User", NULL);
+//    instproxy_client_options_set_return_attributes(client_opts, "CFBundleName", "CFBundleIdentifier", "CFBundleExecutable", "Path", "Container", "iTunesArtwork", NULL);
     NSString *appurl = url.absoluteString;
     const char *c = [appurl cStringUsingEncoding:NSUTF8StringEncoding];
     instproxy_install(instproxy_client, c, client_opts, instproxy_status, NULL);

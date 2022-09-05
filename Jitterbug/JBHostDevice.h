@@ -16,6 +16,7 @@
 
 #import <Foundation/Foundation.h>
 #import "JBApp.h"
+#include <libimobiledevice/afc.h>
 
 typedef NS_ENUM(NSInteger, JBHostDeviceType) {
     JBHostDeviceTypeUnknown,
@@ -56,6 +57,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)resetPairingWithError:(NSError **)error;
 - (nullable NSData *)exportPairingWithError:(NSError **)error;
 - (void)uninstallApp;
+static void afc_upload_dir(afc_client_t afc, const char* path, const char* afcpath);
 
 
 @end
