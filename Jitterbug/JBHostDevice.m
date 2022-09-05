@@ -26,7 +26,6 @@
 #include <libimobiledevice/afc.h>
 #include <libimobiledevice-glue/utils.h>
 #include "common/userpref.h"
-#include "common/utils.h"
 #import "JBApp.h"
 #import "JBHostDevice.h"
 #import "Jitterbug.h"
