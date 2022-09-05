@@ -24,6 +24,7 @@
 #include <libimobiledevice/sbservices.h>
 #include <libimobiledevice/service.h>
 #include <libimobiledevice/afc.h>
+#include <libimobiledevice-glue/utils.h>
 #include "common/userpref.h"
 #include "common/utils.h"
 #import "JBApp.h"
