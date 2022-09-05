@@ -88,6 +88,13 @@ struct DeviceDetailsView: View {
                             }.appContextMenu(host: host, app: app)
                         }
                     }
+                    Section(header: Text("Install new app")){
+                        ForEach(main.apps) {app in
+                            Button(app.lastPathComponent){
+                                installAppAtUrl(url: app.absoluteURL)
+                            }
+                        }
+                    }
                     Button{
                         uninstallApp()
                     } label: { Text("Uninstall tiktok")}
@@ -231,6 +238,14 @@ struct DeviceDetailsView: View {
 
         } onComplete: {
             print("App uninstalled?!")
+        }
+    }
+    private func installAppAtUrl(url: URL) {
+        main.backgroundTask(message: NSLocalizedString("Installing app...", comment: "DeviceDetailsView")) {
+            host.installApp(url)
+
+        } onComplete: {
+            print("App installed?!")
         }
     }
 

@@ -11,9 +11,6 @@
 		03E41E3428C5A84500FD910A /* SwiftZip in Frameworks */ = {isa = PBXBuildFile; productRef = 03E41E3328C5A84500FD910A /* SwiftZip */; };
 		03E41E3628C5A84500FD910A /* SwiftZipUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 03E41E3528C5A84500FD910A /* SwiftZipUtils */; };
 		03E41E3828C5A84500FD910A /* zip in Frameworks */ = {isa = PBXBuildFile; productRef = 03E41E3728C5A84500FD910A /* zip */; };
-		03E41E4228C5AB0D00FD910A /* ideviceinstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E41E4128C5AB0D00FD910A /* ideviceinstaller.m */; };
-		03E41E4328C5AB0D00FD910A /* ideviceinstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E41E4128C5AB0D00FD910A /* ideviceinstaller.m */; };
-		03E41E4428C5AB0D00FD910A /* ideviceinstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E41E4128C5AB0D00FD910A /* ideviceinstaller.m */; };
 		4B811C342688D54100046341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B811C322688D54100046341 /* InfoPlist.strings */; };
 		4B811C372688D54100046341 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B811C352688D54100046341 /* Localizable.strings */; };
 		4B811C3A2688D54100046341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B811C382688D54100046341 /* InfoPlist.strings */; };
@@ -348,7 +345,6 @@
 
 /* Begin PBXFileReference section */
 		038323C2275DE72F00E62E79 /* PairingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairingsView.swift; sourceTree = "<group>"; };
-		03E41E4128C5AB0D00FD910A /* ideviceinstaller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ideviceinstaller.m; sourceTree = "<group>"; };
 		4B30CD8426BC250400ACBA59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4B30CD8526BC252100ACBA59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4B811C332688D54100046341 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -654,7 +650,6 @@
 				CEE8B483265D6A51007728F4 /* JBApp.m */,
 				CEE8B473265D59C0007728F4 /* JBHostDevice.h */,
 				CEE8B474265D59C0007728F4 /* JBHostDevice.m */,
-				03E41E4128C5AB0D00FD910A /* ideviceinstaller.m */,
 				CEE8B47A265D5C4F007728F4 /* JBHostDevice.swift */,
 				CEA029D02667DC8A00CF57E1 /* JBHostFinder.h */,
 				CEA029D12667DC8A00CF57E1 /* JBHostFinder.m */,
@@ -1237,7 +1232,6 @@
 				CE985857265C6E1800F9AAD4 /* property_list_service.c in Sources */,
 				CE98584E265C6E1800F9AAD4 /* syslog_relay.c in Sources */,
 				CEE8B45B265CBF49007728F4 /* thread.c in Sources */,
-				03E41E4228C5AB0D00FD910A /* ideviceinstaller.m in Sources */,
 				CEE8B461265CBFC2007728F4 /* libusbmuxd-stub.c in Sources */,
 				CE985853265C6E1800F9AAD4 /* mobilebackup2.c in Sources */,
 				CE985846265C6E1800F9AAD4 /* debugserver.c in Sources */,
@@ -1380,7 +1374,6 @@
 				CEA02A2626685A2B00CF57E1 /* libusbmuxd.c in Sources */,
 				CE93EC24266ABAA8002BB16C /* ManualAddHostView.swift in Sources */,
 				CEA02A0726685A2B00CF57E1 /* mobilebackup.c in Sources */,
-				03E41E4428C5AB0D00FD910A /* ideviceinstaller.m in Sources */,
 				CEA02A0526685A2B00CF57E1 /* Key.cpp in Sources */,
 				CEA029EB266859D200CF57E1 /* Extensions.swift in Sources */,
 				CEA02A2726685A2B00CF57E1 /* Node.cpp in Sources */,
@@ -1496,7 +1489,6 @@
 				CEA65EAD26C5E2CB00020562 /* Structure.cpp in Sources */,
 				CEA65EAE26C5E2CB00020562 /* lockdown.c in Sources */,
 				CEA65EAF26C5E2CB00020562 /* CacheStorage.c in Sources */,
-				03E41E4328C5AB0D00FD910A /* ideviceinstaller.m in Sources */,
 				CEA65EB026C5E2CB00020562 /* socket.c in Sources */,
 				CEA65EB126C5E2CB00020562 /* companion_proxy.c in Sources */,
 				CEA65EB226C5E2CB00020562 /* FileSelectionView.swift in Sources */,

@@ -45,7 +45,7 @@ struct AppsView: View {
                         Label("Import", systemImage: "square.and.arrow.down")
                             .labelStyle(IconOnlyLabelStyle())
                     })
-                    if !main.pairings.isEmpty {
+                    if !main.apps.isEmpty {
                         EditButton()
                     }
                 }
@@ -57,14 +57,14 @@ struct AppsView: View {
     private func deleteAll(indicies: IndexSet) {
         var toDelete: [URL] = []
         for i in indicies {
-            toDelete.append(main.pairings[i])
+            toDelete.append(main.apps[i])
         }
-        main.backgroundTask(message: NSLocalizedString("Deleting pairing...", comment: "PairingsView")) {
+        main.backgroundTask(message: NSLocalizedString("Deleting app...", comment: "AppsView")) {
             for url in toDelete {
-                try main.deletePairing(url)
+                try main.deleteApp(url)
             }
         } onComplete: {
-            main.pairings.remove(atOffsets: indicies)
+            main.apps.remove(atOffsets: indicies)
         }
     }
     
