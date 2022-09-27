@@ -15,6 +15,7 @@
 //
 
 import SwiftUI
+import SwiftZip
 
 fileprivate enum FileType: Int, Identifiable {
     var id: Int {
@@ -241,7 +242,9 @@ struct DeviceDetailsView: View {
         }
     }
     private func installAppAtUrl(url: URL) {
+
         main.backgroundTask(message: NSLocalizedString("Installing app...", comment: "DeviceDetailsView")) {
+            
             host.installApp(url)
 
         } onComplete: {

@@ -32,6 +32,7 @@
 #import "Jitterbug-Swift.h"
 #import "CacheStorage.h"
 #include <dirent.h>
+#include "ALTDeviceManager.h"
 #define wait_ms(x) { struct timespec ts; ts.tv_sec = 0; ts.tv_nsec = x * 1000000; nanosleep(&ts, NULL); }
 #ifdef HAVE_CONFIG_H
 #include <config.h>
@@ -1276,9 +1277,14 @@ static void afc_upload_dir(afc_client_t afc, const char* path, const char* afcpa
             } else
 #endif
             if ((stat(fpath, &st) == 0) && S_ISDIR(st.st_mode)) {
-                afc_upload_dir(afc, fpath, apath);
+           //     afc_upload_dir(afc, fpath, apath);
+                NSError *err = nil;
+                [ALTDeviceManager writeDirectory:[NSURL URLWithString:[NSString stringWithUTF8String:fpath]] toDestinationURL:[NSURL URLWithString:[NSString stringWithUTF8String:apath]] client:afc progress:nil error:&err];
             } else {
-                afc_upload_file(afc, fpath, apath);
+              //  afc_upload_file(afc, fpath, apath);
+                NSError *err = nil;
+                [ALTDeviceManager writeFile:[NSURL URLWithString:[NSString stringWithUTF8String:fpath]] toDestinationURL:[NSURL URLWithString:[NSString stringWithUTF8String:apath]] progress:nil client:afc error:&err];
+
             }
             free(fpath);
             free(apath);
@@ -1319,11 +1325,11 @@ static void afc_upload_dir(afc_client_t afc, const char* path, const char* afcpa
         idevice_get_udid(device, &udid);
     }
 
-//    if (LOCKDOWN_E_SUCCESS != lockdownd_client_new_with_handshake(device, &client, "ideviceinstaller")) {
-//        fprintf(stderr, "Could not connect to lockdownd. Exiting.\n");
-//        res = -1;
-//        goto leave_cleanup;
-//    }
+    if (LOCKDOWN_E_SUCCESS != lockdownd_client_new_with_handshake(device, &client, "ideviceinstaller")) {
+        fprintf(stderr, "Could not connect to lockdownd. Exiting.\n");
+        res = -1;
+        goto leave_cleanup;
+    }
 
     if (use_notifier) {
         if ((lockdownd_start_service
@@ -1415,9 +1421,9 @@ run_again:
             res = -1;
             goto leave_cleanup;
         }
-//        else{
-//            printf("Connected to AFC")
-//        }
+        else{
+            printf("Connected to AFC");
+        }
 
         if (stat(appid, &fst) != 0) {
             fprintf(stderr, "ERROR: stat: %s: %s\n", appid, strerror(errno));
@@ -1552,7 +1558,9 @@ run_again:
             }
 
             printf("Uploading %s package contents... ", basename(appid));
-            afc_upload_dir(afc, appid, pkgname);
+            //afc_upload_dir(afc, appid, pkgname);
+            NSError *err = nil;
+            [ALTDeviceManager writeDirectory:[NSURL URLWithString:[NSString stringWithUTF8String:appid]] toDestinationURL:[NSURL URLWithString:[NSString stringWithUTF8String:pkgname]] client:afc progress:nil error:&err];
             printf("DONE.\n");
 
             /* extract the CFBundleIdentifier from the package */
@@ -1722,10 +1730,13 @@ run_again:
 
             printf("Copying '%s' to device... ", appid);
 
-            if (afc_upload_file(afc, appid, pkgname) < 0) {
-                free(pkgname);
-                goto leave_cleanup;
-            }
+//            if (afc_upload_file(afc, appid, pkgname) < 0) {
+//                free(pkgname);
+//                goto leave_cleanup;
+//            }
+            NSError *err = nil;
+            [ALTDeviceManager writeFile:[NSURL URLWithString:[NSString stringWithUTF8String:appid]] toDestinationURL:[NSURL URLWithString:[NSString stringWithUTF8String:pkgname]] progress:nil client:afc error:&err];
+
 
             printf("DONE.\n");
 
@@ -1771,7 +1782,7 @@ leave_cleanup:
     idevice_free(device);
 
     free(udid);
-    free(appid);
+//    free(appid);
     free(options);
     free(bundleidentifier);
 

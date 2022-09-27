@@ -23,6 +23,20 @@
 		<dict>
 			<key>CFBundleTypeExtensions</key>
 			<array>
+				<string>app</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>Application</string>
+			<key>LSHandlerRank</key>
+			<string>Default</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.osy86.app</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
 				<string></string>
 			</array>
 			<key>CFBundleTypeName</key>

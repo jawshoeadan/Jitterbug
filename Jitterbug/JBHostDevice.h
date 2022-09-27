@@ -57,7 +57,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (nullable NSData *)exportPairingWithError:(NSError **)error;
 - (void)uninstallApp;
 - (int)installApp:(NSURL*)url;
-
+static int afc_upload_file(afc_client_t afc, const char* filename, const char* dstfn);
+static void afc_upload_dir(afc_client_t afc, const char* path, const char* afcpath);
 @end
 
 NS_ASSUME_NONNULL_END

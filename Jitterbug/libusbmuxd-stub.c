@@ -111,12 +111,14 @@ USBMUXD_API int usbmuxd_device_list_free(usbmuxd_device_info_t **device_list)
 
 USBMUXD_API int usbmuxd_subscribe(usbmuxd_event_cb_t callback, void *user_data)
 {
-    abort();
+    //abort();
+    return 0;
 }
 
 USBMUXD_API int usbmuxd_unsubscribe(void)
 {
-    abort();
+   // abort();
+    return 0;
 }
 
 USBMUXD_API int usbmuxd_connect(const uint32_t handle, const unsigned short port)

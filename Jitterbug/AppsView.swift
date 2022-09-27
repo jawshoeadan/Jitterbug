@@ -50,7 +50,7 @@ struct AppsView: View {
                     }
                 }
             }
-            .fileImporter(isPresented: $isImporterPresented, allowedContentTypes: [.ipa], onCompletion: importFile)
+            .fileImporter(isPresented: $isImporterPresented, allowedContentTypes: [.ipa, .application], onCompletion: importFile)
         }.navigationViewStyle(StackNavigationViewStyle())
     }
     
